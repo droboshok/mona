@@ -115,7 +115,8 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */ }
 
 /**
@@ -602,8 +603,8 @@ header {
 
 .button {
   font-weight: 300;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FBAE17), to(#FB9A17));
-  background-image: linear-gradient(180deg, #FBAE17 0%, #FB9A17 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2ecc71), to(#27ae60));
+  background-image: linear-gradient(180deg, #2ecc71 0%, #27ae60 100%);
   font-size: 1.25rem;
   color: #FFFFFF;
   padding: 10px 70px;
@@ -616,6 +617,7 @@ header {
 /* ГИПСОКАРТОННЫЕ ПОТОЛ: */
 html {
   font-family: 'Roboto Condensed', sans-serif; }
+
 @font-face {
   html {
     font-family: 'Roboto Condensed';
@@ -623,6 +625,7 @@ html {
     src: url("../fonts/RobotoCondensed-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoCondensed-Regular.woff") format("woff"), url("../fonts/RobotoCondensed-Regular.ttf") format("truetype"), url("../fonts/RobotoCondensed-Regular.svg#RobotoCondensed-Regular") format("svg");
     font-weight: normal;
     font-style: normal; } }
+
 /* Menu
    ========================================================================== */
 .menu-overlay {
@@ -827,5 +830,3 @@ footer {
   text-align: center; }
   .so_icon .soc {
     margin: 0 .3rem; }
-
-/*# sourceMappingURL=1.css.map */
