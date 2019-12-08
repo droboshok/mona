@@ -1,0 +1,40 @@
+#work {
+  background: #282828;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.work_title {
+  text-align: center;
+  padding-top: 1rem;
+  h2{
+    margin-top: 0;
+    font-weight:bold;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+}
+
+.work_style{
+  min-height: 76px;
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+  .work_img{
+      margin: 0 1rem;
+      }
+  .work_name{  
+     flex-basis: 100%;
+    text-align:center;
+    h4{
+      margin-right: 1rem;
+    }
+    
+      
+  }
+}
+.chet {
+
+}
+.nechet{
+  background: #333333;
+}

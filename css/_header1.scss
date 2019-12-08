@@ -1,0 +1,92 @@
+header {
+  width: 100%;
+  min-height:477px;
+  background:url(../img/bg_header.jpg) center center no-repeat ;
+  background-size: cover;
+  text-align: center;
+
+}
+.header_top {
+  // position: relative;
+  margin-top: 10px;
+  p{
+  display:inline;
+  font-size: 1rem;
+  color: #FBAE17;
+  text-transform: uppercase;
+  background: rgba(0,0,0,.5);
+  border-radius: .4rem;
+  padding: .25rem .7rem;
+  letter-spacing: -0.67px;
+  }
+  .menu-svg{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+  }
+}
+
+.header_title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center;
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    border-radius: 20px;
+    min-height:290px;
+    position: relative;
+    padding: 1rem 0;
+    background: rgba(0,0,0,0.40);;
+    background-image: 
+    linear-gradient(0deg, rgba(127, 71, 221, 0.05) 0%, rgba(251, 174, 23, 0.05) 51%, rgba(251, 174, 23, 0.05
+      ) 100%),linear-gradient(0deg, rgba(0,0,0,.1) 0%, rgba(255,255,255,.1) 100% );
+   
+
+  h1 {
+      margin: 0 10px;
+      // padding: 20px 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+      font-style: italic;
+      color: #FFFFFF;
+      letter-spacing: -1.5px;
+      // line-height: 26px;
+      line-height: 1.5rem;
+  }
+  p {
+    margin: 0 10px;
+      font-size: .9rem;
+      color: #FFFFFF;
+  }
+  label{
+
+  }
+
+}
+ .button {
+    font-weight: 300;
+    background-image: linear-gradient(180deg, #FBAE17 0%, #FB9A17 100%);
+    font-size: 1.25rem;
+    color: #FFFFFF;
+    padding: 10px 70px;
+    text-transform: uppercase;
+    border-radius: 4px;
+     border: none;
+  }
+
+ 
+// /* Fill 1: */
+// background: rgba(0,0,0,0.40);
+// /* Fill 1 Copy 2: */
+// background-image: linear-gradient(-90deg, #000000 0%, #FFFFFF 100%);
+/* Fill 1 Copy: */
+/* Fill 1 Copy 2: */
+// background-image: linear-gradient(-90deg, #000000 0%, #FFFFFF 100%);
+// background-image: linear-gradient(90deg, #7F47DD 0%, #FBAE17 51%, #FBAE17 100%);
+/* ГИПСОКАРТОННЫЕ ПОТОЛ: */
+
+
+
+

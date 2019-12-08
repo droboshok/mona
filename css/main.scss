@@ -1,0 +1,35 @@
+@import "_normalize.scss";  
+html {font-size:16px;
+// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0; }
+
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+// @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic');
+@import "_modal.scss";
+@import "_header.scss";
+// @import "_basic.scss";
+@import "_global.scss";
+// @import "_menu.scss";
+// @import "_banner.scss";
+@import "_preim.scss";
+@import "_work.scss";
+// @import "price";
+
+
+
+
+
+
+
+
+
+
