@@ -168,6 +168,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/_main.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/_menu.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -251,7 +264,7 @@
 		"oF": 0
 		},
 	"\/css\/main.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -473,6 +486,37 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo1.png": {
+		"ft": 32768,
+		"iS": 23032,
+		"oA": 0,
+		"oAP": "\/images\/logo1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/logo2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/logo2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

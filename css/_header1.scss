@@ -1,8 +1,12 @@
 .menu_top {
   background-color: $three;
-    width: 100%;
+   width: 100%;
     
 
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
 }
 .menu_h{height: 72px;
   display: flex;
@@ -10,17 +14,8 @@
   align-items: center;
 
 }
-.menu_h img{
-  margin-left: 1rem;
-  width: 3rem;
-  height: 3rem;
-}
-.menu_h span{
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  margin-left: -2rem;
-}
+
+
 .header {
   width: 100%;
   
@@ -115,8 +110,7 @@
   fill:$one;
   width: 3rem;
   height: 3rem;
-  float: right;
-  padding-right: 1rem;
+
 }
 // /* Fill 1: */
 // background: rgba(0,0,0,0.40);
