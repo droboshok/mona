@@ -892,6 +892,61 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/Price\/ceiling_1_ur.jpg": {
+		"ft": 16384,
+		"iS": 35178,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Price\/ceiling_1_ur.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/Price\/p_115.jpg": {
+		"ft": 16384,
+		"iS": 16400,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Price\/p_115.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/Price\/partition.jpg": {
+		"ft": 16384,
+		"iS": 22613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Price\/partition.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/Price\/wall_CD.jpg": {
+		"ft": 16384,
+		"iS": 17112,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Price\/wall_CD.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/img\/Price\/wall_r.jpg": {
+		"ft": 16384,
+		"iS": 10024,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Price\/wall_r.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/Social\/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1161,6 +1216,13 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/temp.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/temp.txt",
+		"oF": 0
 		},
 	"\/test.html": {
 		"cB": 0,
