@@ -1,0 +1,23 @@
+.hero {
+  min-height: 500px;
+  display: block;
+  background: url(../img/bg_1.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+  background-color: rgba(255,254,254,0.42);
+}
+.hero_line {
+  height: 278px;
+background-color: rgba(0, 0, 0, 0.54);
+position: absolute;
+
+}
+.hero_title h1{
+  color: #ffffff;
+font-family: Helvetica;
+font-size: 36px;
+font-weight: 700;
+line-height: 36px;
+position: absolute;
+}
+.hero_modal {}

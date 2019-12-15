@@ -1,0 +1,49 @@
+@import "_normalize.scss";
+$one:#FFB32C;
+$twoo:#2ECC71;
+$three:#282828;
+// $three:#484848;
+html {
+  font-size:16px;
+  font-family: "-apple-system", BlinkMacSystemFont, Arial,sans-serif;
+
+  // font-family: "-apple-system", 
+  //               BlinkMacSystemFont, 
+  //               "Segoe UI", 
+  //               Roboto, 
+  //               Oxygen-Sans, 
+  //               Ubuntu, 
+  //               Cantarell, 
+  //               "Helvetica Neue", 
+  //               sans-serif;
+// font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+  text-rendering: optimizeLegibility;
+}
+ // body{ zoom: 110%} 
+* {
+  margin: 0;
+  padding: 0; }
+
+.cf:after,
+.cf:before {
+  content: " ";
+  display: table; }
+
+.cf:after {
+  clear: both; }
+// @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic');
+// @import "_modal.scss";
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@import "_header.scss";
+@import "_hero.scss";
+@import "_main.scss";
+@import "_menu.scss";
+// @import "_banner.scss";
+@import "_preim.scss";
+@import "_work.scss";
+// @import "price";
+@import "_footer.scss";
