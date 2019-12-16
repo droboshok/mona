@@ -23,22 +23,35 @@ html {
 // @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i&subset=cyrillic');
 // @import "_modal.scss";
 .container {
-  max-width: 736px;
+  display: block;
+  max-width: 768px;
   margin: 0 auto;
   padding: 0 1rem;
 }
 h1{
 
-font-size: 2.25rem;
+font-size: 2rem; 
 font-weight: 700;
-line-height: 2.25rem;
-}
+line-height: 1.25;
+
       @media only screen and (max-width: 700px) {
-        
+        font-size: 1.75rem; 
+        font-weight: 700;
+        line-height: 1.15; 
     }
+  }
+h2{
+  font-size: 1.25rem;
+font-weight: 700;
+}
+
+
+
+
 @import "_header.scss";
 @import "_hero.scss";
 @import "_modal.scss";
+@import "_card.scss";
 @import "_main.scss";
 @import "_menu.scss";
 // @import "_banner.scss";

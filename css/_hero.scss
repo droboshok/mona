@@ -1,10 +1,17 @@
 .hero {
-  min-height: 500px;
+  min-height: 420px;
   display: block;
   background: url(../img/bg_1.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
   background-color: rgba(255,254,254,0.42);
+
+
+      @media screen and (max-width:700px) {
+          min-height: 500px;
+    
+  }
+
 }
 .hero_block{
   height: 300px;
@@ -12,19 +19,26 @@
   background-color: #f0f0f000;
   background-image: linear-gradient(transparent , rgba(0,0,0,0.54) 10%, rgba(0,0,0,0.54) 90%,transparent,);
   position: absolute;
-  top: 25%;
+  top: 15%;
   // z-index: 5;
+        @media only screen and (max-width: 700px) {
+          top: 10%;
+        }
+
 }
 .hero_line {
   display: flex;
   justify-content: space-between;
 
-
+  @media screen and (max-width:700px) {
+    flex-direction: column;
+    
+  }
 }
 
 
 .hero_title{
-  max-width: 50%;
+
   text-align: center;
 }
 .hero_title h1{
@@ -36,13 +50,17 @@
 
 color: #fff;
 text-align: center;
-width: 250px;
-margin-top: 100px;
+// width: 250px;
+margin: 100px 5% 0 ;
+
 // height: 300px;
 //       @media only screen and (max-width: 700px) {
 //         display: none;
 //     }
-
+    @media screen and (max-width:700px) {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
 
 
 }

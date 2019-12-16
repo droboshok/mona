@@ -1,0 +1,14 @@
+<script>
+    menuToggle();
+
+    function menuToggle() {
+        document.getElementById('clmenu').onclick = function() {
+            console.log(this);
+            document.querySelector('html').classList.remove('menu-open');
+        };
+
+        document.getElementById('msvg').onclick = function() {
+            document.querySelector('html').classList.add('menu-open');
+        };
+    }
+    </script>

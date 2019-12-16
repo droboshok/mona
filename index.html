@@ -27,7 +27,7 @@
          </div>
          <!-- /.logo -->
          <div class="nav">
-           <img src="img/menu_btn.svg" alt="">
+           <img id="msvg" src="img/menu_btn.svg" alt="">
          </div>
          <!-- /.nav -->
        </div>
@@ -43,7 +43,7 @@
    
          <div class="hero_line">
            <div class="hero_title">
-             <h1>Гипсокартонные потолки, стены, перегородки для Ваших объектов <br>всего<br> от 120 грн м2</h1>
+             <h1>Гипсокартонные потолки, стены, перегородки для <br>Ваших объектов <br>всего<br> от 120 грн м2</h1>
            </div>
            <div class="hero_modal">
                <p>Оформить заявку на бесплатную консультацию</p>
@@ -82,9 +82,99 @@
        </div>
      </div>
    </div> 
+   <section class="card">
+     <div class="container">
+       <div class="card_header">
+         <h2 class="card_title">ЦЕНЫ НА РАБОТЫ ИЗ ГИПСОКАРТОНА 
+   В 2019 ГОДУ</h2>
+       </div>
+       <div class="card_block">
+       <div class="card_item">
+         <div class="item_title"></div>
+         <div class="item_price"></div>
+         <div class="item_grn"></div>
+         <div class="item_btn"></div>
+       </div>
+       <div class="card_item">
+         <div class="item_title"></div>
+         <div class="item_price"></div>
+         <div class="item_grn"></div>
+         <div class="item_btn"></div>
+       </div>
+       <div class="card_item">
+         <div class="item_title"></div>
+         <div class="item_price"></div>
+         <div class="item_grn"></div>
+         <div class="item_btn"></div>
+       </div>
+       <div class="card_item">
+         <div class="item_title"></div>
+         <div class="item_price"></div>
+         <div class="item_grn"></div>
+         <div class="item_btn"></div>
+       </div>
+       </div>
+     </div>
+   </section> 
 
+   <div class="menu-overlay">
+           <div class="menu-plate">
+               <div class="menu-close">
+                   <svg id="clmenu" fill="#fff" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                       <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+                       <path d="M0 0h24v24H0z" fill="none" />
+                   </svg>
+               </div>
+               <ul class="menu">
+                   <li>
+                       <a href="index.html">
+                           <div class="double-line">Главная</div>
+                       </a>
+                   </li>
+                  <li>
+                       <a href="about.html">
+                           <div class="double-line">О Нас</div>
+                       </a>
+                   </li>
+                   <li>
+                       <a href="#2">
+                           <div class="double-line">Прайс</div>
+                       </a>
+                   </li> 
+                   <li>
+                       <a href="#">
+                           <div class="double-line">Галлерея</div>
+                       </a>
+                   </li>
+   
+                   <li>
+                       <a href="#">
+                           <div class="double-line">Статьи</div>
+                       </a>
+                   </li>                
+                   <li>
+                       <a href="#">
+                           <div class="double-line">Кнтакты</div>
+                       </a>
+                   </li>
+               </ul>
+           </div>
+   </div> 
     
-    
+   <script>
+       menuToggle();
+   
+       function menuToggle() {
+           document.getElementById('clmenu').onclick = function() {
+               console.log(this);
+               document.querySelector('html').classList.remove('menu-open');
+           };
+   
+           document.getElementById('msvg').onclick = function() {
+               document.querySelector('html').classList.add('menu-open');
+           };
+       }
+       </script> 
 
 <div style="height: 200px;background: pink">
 
