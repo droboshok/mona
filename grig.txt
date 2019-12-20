@@ -1,0 +1,20 @@
+Меньше чем 960 пикселей: Меньше чем стандартная сетка.
+Если планшет повернут в портретное положение: Между 768px и 959px.
+Показ элементов предназначенных для мобильных версий: Если разрешение ниже 767px.
+Только для планшетов в горизонтальном положении: От 480px до 767px.
+Только для мобильных устройств в вертикальном положении: Менее 479px.
+
+/* Smaller than standard 960 (devices and browsers) */
+  @media only screen and (max-width: 959px) {}
+
+  /* Tablet Portrait size to standard 960 (devices and browsers) */
+  @media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+  /* All Mobile Sizes (devices and browser) */
+  @media only screen and (max-width: 767px) {}
+
+  /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+  /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+  @media only screen and (max-width: 479px) {}

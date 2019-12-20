@@ -4,171 +4,127 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "DB02E4E7-F063-46EE-8E68-76C06EF6BA0C"
+		"uuidString": "C164653A-8C1F-42B3-9018-B5BFCABB5458"
 		}
 	],
 "creatorBuild": "31934",
 "files": {
-	"/.gitignore": {
+	"/#source/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 2
+		},
+	"/#source/kit/footer.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/.gitignore",
-		"oF": 0
-		},
-	"/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/about.html",
-		"oF": 0
-		},
-	"/bower.json": {
-		"ft": 524288,
 		"oA": 1,
-		"oAP": "/bower-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"oAP": "/#source/kit/footer.html",
+		"oF": 0
 		},
-	"/css/_card.scss": {
-		"aP": 1,
+	"/#source/kit/header.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/#source/kit/header.html",
+		"oF": 0
+		},
+	"/#source/kit/script.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/#source/kit/script.html",
+		"oF": 0
+		},
+	"/#source/styles/_footer.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css/_card.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/_footer.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_footer.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/_header.scss": {
-		"aP": 1,
+	"/#source/styles/_header.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/_hero.scss": {
-		"aP": 1,
+	"/#source/styles/_main.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css/_hero.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/_main.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_main.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/_menu.scss": {
-		"aP": 1,
+	"/#source/styles/_normalize.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css/_menu.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/_modal.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css/_modal.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css/_normalize.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_normalize.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/_preim.scss": {
-		"aP": 1,
+	"/#source/styles/_reset.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
+		"ma": 0,
 		"oA": 1,
-		"oAP": "/css/_preim.css",
+		"oAP": "/css/_reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/_work.scss": {
-		"aP": 1,
+	"/#source/styles/style.scss": {
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css/_work.css",
-		"oF": 0,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
-	"/css/normalize.css.map": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/css/normalize.css.map",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
 	"/css/style.css": {
@@ -181,515 +137,24 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/style.css.map": {
+	"/grig.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/css/style.css.map",
+		"oAP": "/grig.txt",
 		"oF": 0
 		},
-	"/css/style.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css/style.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/1.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/1.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_global.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_global.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_header.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_header.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_header1.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_header1.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_modal.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_modal.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_normalize.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_normalize.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_preim.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_preim.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_work.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/_work.scssc",
-		"oF": 0
-		},
-	"/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/main.scssc": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css_old/.sass-cache/9c94829846c9d62e517c0d05cc60de64399aee56/main.scssc",
-		"oF": 0
-		},
-	"/css_old/css/1.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css_old/css/1-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css_old/Новая папка с объектами/1.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css_old/Новая папка с объектами/1-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css_old/Новая папка с объектами/1.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css_old/Новая папка с объектами/1.css.map",
-		"oF": 0
-		},
-	"/css_old/Новая папка с объектами/1.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css_old/css/1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_footer.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_global.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_global.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_header.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_header1.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_header1.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_main.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_menu.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_menu.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_modal.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_modal.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_normalize.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_normalize.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_preim.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_preim.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/_work.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 1,
-		"oAP": "/css_old/css/_work.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/css_old/Новая папка с объектами/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css_old/Новая папка с объектами/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/css_old/Новая папка с объектами/main.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css_old/Новая папка с объектами/main.css.map",
-		"oF": 0
-		},
-	"/css_old/Новая папка с объектами/main.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "/css_old/css/main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/fonts/RobotoCondensed-Bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/RobotoCondensed-Bold.woff",
-		"oF": 0
-		},
-	"/fonts/RobotoCondensed-BoldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/RobotoCondensed-BoldItalic.woff",
-		"oF": 0
-		},
-	"/fonts/RobotoCondensed-Italic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/RobotoCondensed-Italic.woff",
-		"oF": 0
-		},
-	"/fonts/RobotoCondensed-Light.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/RobotoCondensed-Light.woff",
-		"oF": 0
-		},
-	"/fonts/RobotoCondensed-LightItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/RobotoCondensed-LightItalic.woff",
-		"oF": 0
-		},
-	"/fonts/RobotoCondensed-Regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/RobotoCondensed-Regular.woff",
-		"oF": 0
-		},
-	"/fonts/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/fonts/stylesheet-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/images/logo.png": {
-		"ft": 32768,
-		"iS": 1878,
-		"oA": 0,
-		"oAP": "/images/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/logo1.png": {
-		"ft": 32768,
-		"iS": 23032,
-		"oA": 0,
-		"oAP": "/images/logo1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/logo1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/logo2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/menu-button.png": {
-		"ft": 32768,
-		"iS": 320,
-		"oA": 0,
-		"oAP": "/images/menu-button.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/menu-button.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/menu-button.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/images/menu-button1.png": {
-		"ft": 32768,
-		"iS": 400,
-		"oA": 0,
-		"oAP": "/images/menu-button1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/menu-button2.png": {
-		"ft": 32768,
-		"iS": 4491,
-		"oA": 0,
-		"oAP": "/images/menu-button2.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/bg_1.jpg": {
+	"/img/bg_.jpg": {
 		"ft": 16384,
 		"iS": 110440,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/img/bg_1.jpg",
+		"oAP": "/img/bg_.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/img/bg_hero.jpg": {
-		"ft": 16384,
-		"iS": 56570,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/bg_hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/Card/card.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Card/card.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Card/clock.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Card/clock.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Card/fura.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Card/fura.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Card/molot.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Card/molot.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"/img/logo.svg": {
 		"ft": 2097152,
@@ -698,571 +163,8 @@
 		"oAP": "/img/logo.svg",
 		"oF": 0,
 		"opt": 0,
-		"plM": 3758088159,
+		"plM": 52780316221407,
 		"prP": 0
-		},
-	"/img/menu_btn.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/menu_btn.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Price/ceiling_1_ur.jpg": {
-		"ft": 16384,
-		"iS": 35178,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/Price/ceiling_1_ur.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/Price/p_115.jpg": {
-		"ft": 16384,
-		"iS": 16400,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/Price/p_115.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/Price/partition.jpg": {
-		"ft": 16384,
-		"iS": 22613,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/Price/partition.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/Price/wall_CD.jpg": {
-		"ft": 16384,
-		"iS": 17112,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/Price/wall_CD.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/Price/wall_r.jpg": {
-		"ft": 16384,
-		"iS": 10024,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/Price/wall_r.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/Social/facebook.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Social/facebook.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Social/google.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Social/google.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Social/instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Social/instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Social/twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Social/twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Work/Comerc.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Work/Comerc.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Work/Cup.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Work/Cup.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Work/Montag.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Work/Montag.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Work/Smeta.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Work/Smeta.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Work/Tel.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Work/Tel.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/Work/Zamer.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/Work/Zamer.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img_old/banner-100.jpg": {
-		"ft": 16384,
-		"iS": 100706,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner-100.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner-2.png": {
-		"ft": 32768,
-		"iS": 174128,
-		"oA": 0,
-		"oAP": "/img_old/banner-2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/banner-3.jpg": {
-		"ft": 16384,
-		"iS": 21602,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner-3.png": {
-		"ft": 32768,
-		"iS": 234172,
-		"oA": 0,
-		"oAP": "/img_old/banner-3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/banner-60-2.jpg": {
-		"ft": 16384,
-		"iS": 23541,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner-60-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner-60.jpg": {
-		"ft": 16384,
-		"iS": 17653,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner-60.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner-all.jpeg": {
-		"ft": 16384,
-		"iS": 18357,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner-all.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner-all.jpg": {
-		"ft": 16384,
-		"iS": 106233,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner-all.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner.jpg": {
-		"ft": 16384,
-		"iS": 111203,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner.png": {
-		"ft": 32768,
-		"iS": 148221,
-		"oA": 0,
-		"oAP": "/img_old/banner.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/banner.webp": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner.webp",
-		"oF": 0
-		},
-	"/img_old/banner@2.png": {
-		"ft": 32768,
-		"iS": 562170,
-		"oA": 0,
-		"oAP": "/img_old/banner@2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/banner@3.png": {
-		"ft": 32768,
-		"iS": 1217320,
-		"oA": 0,
-		"oAP": "/img_old/banner@3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/banner_buttom.jpg": {
-		"ft": 16384,
-		"iS": 6620,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner_buttom.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/banner_top.jpg": {
-		"ft": 16384,
-		"iS": 12156,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/banner_top.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/bg_header.jpg": {
-		"ft": 16384,
-		"iS": 30159,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/bg_header.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/but_banner.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img_old/but_banner.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img_old/logo-1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img_old/logo-1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img_old/logo-11.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img_old/logo-11.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img_old/logo-2.jpg": {
-		"ft": 16384,
-		"iS": 4862,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/logo-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/logo.jpg": {
-		"ft": 16384,
-		"iS": 4749,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/logo.png": {
-		"ft": 32768,
-		"iS": 6839,
-		"oA": 0,
-		"oAP": "/img_old/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img_old/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img_old/menu-button.png": {
-		"ft": 32768,
-		"iS": 1232,
-		"oA": 0,
-		"oAP": "/img_old/menu-button.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/menu-button.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img_old/menu-button.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img_old/menu.png": {
-		"ft": 32768,
-		"iS": 2861,
-		"oA": 0,
-		"oAP": "/img_old/menu.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/menu.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img_old/menu.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img_old/untitled folder/banner copy.jpg": {
-		"ft": 16384,
-		"iS": 24125,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/banner copy.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask.jpg": {
-		"ft": 16384,
-		"iS": 21849,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask.png": {
-		"ft": 32768,
-		"iS": 1337,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask@2.jpg": {
-		"ft": 16384,
-		"iS": 4919,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask@2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask@2.png": {
-		"ft": 32768,
-		"iS": 3559,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask@2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask@2_b.jpg": {
-		"ft": 16384,
-		"iS": 4019,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask@2_b.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask@2_b.png": {
-		"ft": 32768,
-		"iS": 2709,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask@2_b.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask_b.jpg": {
-		"ft": 16384,
-		"iS": 1769,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask_b.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img_old/untitled folder/Mask_b.png": {
-		"ft": 32768,
-		"iS": 749,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Mask_b.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img_old/untitled folder/Page 1.jpg": {
-		"ft": 16384,
-		"iS": 122208,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img_old/untitled folder/Page 1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,
@@ -1270,46 +172,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/index.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/index1.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index1.html",
-		"oF": 0
-		},
-	"/index2.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index2.html",
-		"oF": 0
-		},
-	"/index4.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index4.html",
-		"oF": 0
-		},
-	"/mona.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/mona.sketch",
 		"oF": 0
 		},
 	"/Montagnik-copy.ai": {
@@ -1327,43 +189,6 @@
 		"oA": 0,
 		"oAP": "/Montagnik.ai",
 		"oF": 0
-		},
-	"/normalize.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/css/normalize.css",
-		"oF": 0,
-		"oS": 2,
-		"uL": 1
-		},
-	"/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/package-min.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-min-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/package-min.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
 		},
 	"/README.md": {
 		"cB": 0,
@@ -1384,110 +209,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"/src/card.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/card.html",
-		"oF": 0
-		},
-	"/src/footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/footer.html",
-		"oF": 0
-		},
-	"/src/foto.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/foto.html",
-		"oF": 0
-		},
-	"/src/header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/header.html",
-		"oF": 0
-		},
-	"/src/hero.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/hero.html",
-		"oF": 0
-		},
-	"/src/menu.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/menu.html",
-		"oF": 0
-		},
-	"/src/modal.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/modal.html",
-		"oF": 0
-		},
-	"/src/preim.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/preim.html",
-		"oF": 0
-		},
-	"/src/script.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/src/script.html",
-		"oF": 0
-		},
-	"/src/subscribe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/subscribe.html",
-		"oF": 0
-		},
-	"/src/work.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/src/work.html",
-		"oF": 0
-		},
-	"/temp.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/temp.txt",
-		"oF": 0
-		},
-	"/test.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/test.html",
-		"oF": 0
-		},
 	"/Untitled 4.sketch": {
 		"cB": 0,
 		"ft": 8192,
@@ -1502,10 +223,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 597508246,
+	"creationDate": 598558818.77086103,
 	"displayValue": "mona",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "logo-vue",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "brackets-red",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -1798,7 +519,7 @@
 	"bowerForceLatestOnConflict": 1,
 	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
-	"browserRefreshDelay": 1,
+	"browserRefreshDelay": 0,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
@@ -1996,7 +717,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always'}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -2076,11 +797,11 @@
 			},
 		"func-name-matching": {
 			"active": 0,
-			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
 			},
 		"func-names": {
 			"active": 0,
-			"optionString": "'always'"
+			"optionString": "'always', {'generators': 'always'}"
 			},
 		"func-style": {
 			"active": 0,
@@ -2120,7 +841,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -2212,7 +933,7 @@
 			},
 		"new-parens": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "'always'"
 			},
 		"newline-per-chained-call": {
 			"active": 0,
@@ -2264,7 +985,7 @@
 			},
 		"no-confusing-arrow": {
 			"active": 0,
-			"optionString": "{'allowParens': false}"
+			"optionString": "{'allowParens': true}"
 			},
 		"no-console": {
 			"active": 1,
@@ -2596,7 +1317,7 @@
 			},
 		"no-self-assign": {
 			"active": 1,
-			"optionString": "{'props': false}"
+			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
 			"active": 0,
@@ -2624,7 +1345,7 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
 			"active": 0,
@@ -2760,7 +1481,7 @@
 			},
 		"object-curly-newline": {
 			"active": 0,
-			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
 			},
 		"object-curly-spacing": {
 			"active": 0,
@@ -2896,7 +1617,7 @@
 			},
 		"sort-keys": {
 			"active": 0,
-			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false, 'minKeys': 2}"
 			},
 		"sort-vars": {
 			"active": 0,
@@ -3401,11 +2122,11 @@
 		"autoOutputPathRelativePath": "/min",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
-		"syntaxCheckerStyle": 1,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -3422,9 +2143,9 @@
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "",
-		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 1,
 		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0
 		},
@@ -3435,8 +2156,8 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 0,
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
 		"enableJavascript": 0,
 		"mathStyle": 0,
 		"outputStyle": 0,
@@ -3505,12 +2226,12 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
-		"createSourceMap": 1,
+		"autoOutputPathStyle": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -3535,7 +2256,7 @@
 		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"importCSS": 0,
@@ -3551,7 +2272,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"pluginMask": 3758088159
+		"pluginMask": 52780316221407
 		},
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
@@ -3559,12 +2280,12 @@
 		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 2,
+		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
-		"moduleType": 0,
+		"moduleType": 2,
 		"removeComments": 0,
 		"targetECMAVersion": 0
 		},
@@ -3664,7 +2385,7 @@
 			"flagValue": -1
 			},
 		"dead_code": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"directives": {
@@ -3696,7 +2417,7 @@
 			"flagValue": -1
 			},
 		"hoist_funs": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"hoist_props": {
@@ -3740,7 +2461,7 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"keep_fnames": {
@@ -3868,7 +2589,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"warnings": {
@@ -3885,7 +2606,7 @@
 			}
 		},
 	"uglifyMangleNames": 1,
-	"uglifyReservedNamesString": "$",
+	"uglifyReservedNamesString": "$,exports,require",
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
