@@ -6,7 +6,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Монтажник</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 ">
     <meta http-equiv="Cache-Control" content="no-cache">
     <link rel="stylesheet" href="css/style.css" />
     <!--         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -25,7 +25,7 @@
                     <img src="img/logo.svg" alt="">
                 </div>
                 <nav class="menu">
-                    <ul class="menu__list">
+                    <ul class="menu__list"> 
                         <li><a class="menu__item" href="price.html">Прайc</a></li>
                         <li><a class="menu__item" href="#">О Нас</a></li>
                         <li><a class="menu__item" href="#">Галерея</a></li>
@@ -36,6 +36,46 @@
             </div>
         </div>
     </header>
+    <section class="hero">
+        <div class="hero__line">
+            <div class="container">
+                <div class="hero__row">
+                    <div class="hero__title"><h1>Гипсокартонные потолки, стены,перегородки для Ваших объектов <br>всего 
+                    <br>от 100 грн м2</h1></div>
+                    <div class="hero__modal"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal">
+      <input class="modal-open" id="modal-2" type="checkbox" hidden>
+      <div class="modal-wrap" aria-hidden="true" role="dialog">
+        <label class="modal-overlay" for="modal-2"></label>
+        <div class="modal-dialog">
+          <div class="modal-header">
+            <h2>ПОЗВОНИТЕ</h2>
+            <div class="modal-phone">
+            <a href="tel:+380672718678">+38(067) 271 96 78</a>
+            </div>
+            <p>или оставитьте заявку на сайте</p>
+          </div>
+          <div class="modal-body">
+              <form >
+                 <input name="name" placeholder="* Укажите Ваше имя" class="textbox" required />
+                 <input name="emailaddress" placeholder="* Укажите Ваш Email" class="textbox" type="email" required />
+                  <input name="submit" class="button" type="submit" value="Отправить" />
+              </form>
+          </div>
+            
+          <label class="btn-close" for="modal-2" aria-hidden="true">×</label>
+        </div>
+      </div>
+    </div>
+
+
+
+
     
     
 </body>

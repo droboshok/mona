@@ -1,9 +1,16 @@
-// @import "_normalize.scss";
-@import "_reset.scss";
+@import "_normalize.scss";
+// @import "_reset.scss";
 $one:#FFB32C;
 $twoo:#2ECC71;
 $three:#282828;
 // $three:#484848;
+$mw:1170;
+$md1:$mw+12;
+$md2:960;
+$md3:767.98;
+$md4:479.98;
+
+
 
 // MIXIN
 
@@ -27,12 +34,18 @@ html {
   clear: both; }
 
 .container {
-  display: block;
-  max-width: 940px;
+  // display: block;
+  width: 100%;
+  max-width: $md1+px;
   margin: 0 auto;
+  @media (max-width: $md1+px) {max-width: 970px;}
+  @media (max-width: $md2+px) {max-width: 750px;}
+  @media (max-width: $md3+px) {max-width:none;padding: 0 10px;};
 }
 
 @import "_header.scss";
+@import "_hero.scss";
+@import "_modal.scss";
 @import "_main.scss";
 @import "_footer.scss";
 

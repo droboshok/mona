@@ -33,6 +33,14 @@
 		"oAP": "/#source/kit/header.html",
 		"oF": 0
 		},
+	"/#source/kit/modal.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/#source/kit/modal.html",
+		"oF": 0
+		},
 	"/#source/kit/script.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -67,6 +75,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/styles/_hero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_hero.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/#source/styles/_main.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -76,6 +97,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_main.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/#source/styles/_modal.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_modal.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
