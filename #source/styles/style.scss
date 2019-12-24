@@ -2,11 +2,22 @@
 // @import "_reset.scss";
 $one:#FFB32C;
 $twoo:#2ECC71;
+$twoo_dark:#27ae60;
+// $twoo:#4cd137;
+// $twoo_dark:#44bd32;
 $three:#282828;
 // $three:#484848;
+$bgc:#353b48;//rgba(53, 59, 72,1.0) (Blue nights)British Palette by Jan Losert 
+// $bgc:#2f3542;
+// $bgc:#222f3e;
+$h1:#f5f6fa;
+$h2:#2f3640;
+
+
+
 $mw:1170;
 $md1:$mw+12;
-$md2:960;
+$md2:992.98;
 $md3:767.98;
 $md4:479.98;
 
@@ -15,8 +26,6 @@ $md4:479.98;
 // MIXIN
 
 @mixin anim($time,$delay) {-webkit-transition: all $time ease $delay;-moz-transition: all $time ease $delay;-o-transition: all $time ease $delay;transition: all $time ease $delay;}
-
-
 
 
 html {
@@ -34,19 +43,19 @@ html {
   clear: both; }
 
 .container {
-  // display: block;
   width: 100%;
-  max-width: $md1+px;
+  max-width: 1170px;
   margin: 0 auto;
-  @media (max-width: $md1+px) {max-width: 970px;}
-  @media (max-width: $md2+px) {max-width: 750px;}
-  @media (max-width: $md3+px) {max-width:none;padding: 0 10px;};
+  @media (max-width: $md1+px) {max-width: 960px;}
+  @media screen and (max-width: $md2+px) {max-width: 768px;}
+  @media screen and (max-width: $md3+px) {max-width:none;padding: 0 1rem;};
 }
 
 @import "_header.scss";
+@import "_menu.scss";
 @import "_hero.scss";
 @import "_modal.scss";
-@import "_main.scss";
+@import "_price.scss";
 @import "_footer.scss";
 
 

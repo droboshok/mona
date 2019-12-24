@@ -1,7 +1,7 @@
 
 /* Стили модального окна */
 .modal-header {
-    border-bottom: #eaeaea solid 1px;
+    border-bottom: $h1 solid 1px;
     color: #555;
     margin: 0;
     
@@ -16,7 +16,7 @@
 .modal-phone {
     margin: 0 auto;
     width: 100%;
-    background:#E6E6E6;
+    background:#dcdde1;
     padding: .5rem 0;
         a{
         text-decoration:none;
@@ -37,7 +37,7 @@
     right: 15px;
     bottom: 0;
         &:hover{
-        color: red;
+        color: rgba(232, 65, 24,1.0);
         }
     }
     
@@ -47,7 +47,7 @@
 .modal-wrap:before {
     content: "";
     display: none;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(53, 59, 72, 0.6);
     position: fixed;
     top: 0;
     left: 0;
@@ -111,8 +111,8 @@
 
 .textbox:focus{
     outline:none;
-    border:rgba(24,149,215,1) 1px solid;
-    color:rgba(24,149,215,1);
+    border:#0097e6 1px solid;
+    color:#0097e6;
 }
 
 /* кнопка "отправить" формы */

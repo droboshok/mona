@@ -2,7 +2,7 @@
 /* Document ========================================================================== */
 /** 1. Correct the line height in all browsers. 2. Prevent adjustments of font size after orientation changes in iOS. */
 html { line-height: 1.15; /* 1 */ -webkit-text-size-adjust: 100%; /* 2 */ }
-body { margin: 0; }
+// body { margin: 0; }
 /** Render the `main` element consistently in IE. */
 main { display: block; }
 h1 { font-size: 2em; margin: 0.67em 0; }
@@ -62,7 +62,8 @@ template { display: none; }
 /** Add the correct display in IE 10. */
 [hidden] { display: none; }
 
-
+* { margin: 0; 
+padding: 0;}
 *,*:before,*:after{
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -70,3 +71,4 @@ template { display: none; }
 }
 :focus,:active{outline: none;}
 a:focus,a:active{outline: none;}
+li{list-style: none;}
