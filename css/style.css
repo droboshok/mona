@@ -359,7 +359,7 @@ html {
 .hero {
   width: 100%;
   min-height: 400px;
-  background: url(/img/b_g1.jpg) center center no-repeat;
+  background: url(img/b_g1.jpg) center center no-repeat;
   background-size: cover;
   position: relative; }
   .hero__line {
