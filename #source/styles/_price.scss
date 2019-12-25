@@ -1,7 +1,7 @@
 
 .price {
 
-  background-color: #dcdde1;
+  background-color: $bg-sec;
   // .preim__block
   &__block {
 
@@ -12,13 +12,9 @@
   }
   // .preim__title
   &__title {
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px;
     color: $h2;
-      h2 {
-        font-size: 1.25rem;
-        font-weight: 700;
 
-      }
 
   }
   // .preim__row
@@ -30,9 +26,22 @@
       
   }
   // .preim__calctitle
-  &__calctitle {}
+  &__calctitle {
+    padding: 40px 0px;
+    color: $h2;
+        @media screen and (max-width: $md3+px) { 
+              padding: 15px 0px;
+          }
+  }
   // .preim__calcbtn
-  &__calcbtn {}
+  &__btn {
+
+    margin: 10px auto 40px;
+        @media screen and (max-width: $md3+px) { 
+              margin: 10px auto 20px;
+          }
+
+  }
 }
 
 .block  {
@@ -47,10 +56,10 @@
                 padding: 20px 0;
                 flex-basis: 560px;
             }
-            @media screen and (max-width: $md3+px) {  
+            @media screen and (max-width: 700px) {  
               padding: 0;
                       flex-direction: column;
-                    height: 700px;
+                    height: 670px;
                       align-items: center;
               }
 }
@@ -58,24 +67,29 @@
 
   // .card__body
   &__body {
-width: 222px;
+    width: 222px;
     padding: 0px 1rem 0px 1rem;
     // width: 222px;
-height: 316px;
-box-shadow: 0 0 22px -2px rgba(0, 0, 0, 0.35);
-background-color: #ffffff;
+    border-radius: 6px;
+    height: 316px;
+    box-shadow: 0 0 22px -2px rgba(0, 0, 0, 0.35);
+    background-color: #ffffff;
+      @media screen and (max-width: $md2+px) { 
+            
+                height: 286px;
+        }
       @media screen and (max-width: $md3+px) { 
 
                 width: 222px;
-                height: 316px;
         }
   }
   // .card__title
   &__title {
-    padding-top: .5rem;
-color: $h2;
-font-size: 1.5rem;
-font-weight: 700;
+    padding: .5rem 0;
+    color: $h2;
+    font-size: 1.5rem;
+    line-height: 1;
+    font-weight: 700;
           @media screen and (max-width: $md2+px) { 
                 font-size: 1rem;
             }
@@ -86,21 +100,44 @@ font-weight: 700;
   &__img img {
         display: block;
     max-height: 110px;
-    margin: 1rem auto;
+    margin: 0 auto;
   }
   // .card__cena
   &__cena {
-    /* Style for "120" */
-color: #c0392b;
-font-size: 36px;
-font-weight: 700;
-  }
+        /* Style for "120" */
+    color: #c0392b;
+    font-size: 36px;
+    font-weight: 700;
+      }
   // .card__kv
   &__kv {}
   // .card__btn
-  &__btn {}
+  &__btn {
+    margin-top: .5rem;
+    .card-btn{
+      display: block;
+      color: $h1;
+      font-weight: 700;
+      font-size: 1.25rem;
+      text-transform: uppercase;
+    }
+  }
 }
-.calc {
-  // .calc_btn
-  &_btn {}
-}
+    .btn{
+    padding: 10px 20px;
+    background-image: linear-gradient(180deg, $one 0%, $one_dark 100%);
+    border-radius: 6px;
+    }
+
+    
+        .link-btn {
+    color: $h1;
+    // display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+ 
+
+        }
+
+

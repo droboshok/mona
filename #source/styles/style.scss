@@ -1,6 +1,8 @@
 @import "_normalize.scss";
 // @import "_reset.scss";
 $one:#FFB32C;
+$one_dark:#d4860c;
+
 $twoo:#2ECC71;
 $twoo_dark:#27ae60;
 // $twoo:#4cd137;
@@ -8,6 +10,7 @@ $twoo_dark:#27ae60;
 $three:#282828;
 // $three:#484848;
 $bgc:#353b48;//rgba(53, 59, 72,1.0) (Blue nights)British Palette by Jan Losert 
+$bg-sec:#dcdde1;
 // $bgc:#2f3542;
 // $bgc:#222f3e;
 $h1:#f5f6fa;
@@ -51,11 +54,27 @@ html {
   @media screen and (max-width: $md3+px) {max-width:none;padding: 0 1rem;};
 }
 
+  h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: $h2
+  }
+    h3{
+    font-size: 1.15rem;
+    font-weight: 700;
+
+  }
+  h4{
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
 @import "_header.scss";
 @import "_menu.scss";
 @import "_hero.scss";
 @import "_modal.scss";
 @import "_price.scss";
+@import "_preim.scss";
+@import "_work.scss";
 @import "_footer.scss";
 
 

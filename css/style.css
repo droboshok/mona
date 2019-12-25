@@ -229,6 +229,19 @@ html {
       max-width: none;
       padding: 0 1rem; } }
 
+h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #2f3640; }
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 700; }
+
+h4 {
+  font-size: 1.1rem;
+  font-weight: 700; }
+
 .header {
   width: 100%;
   background-color: #353b48; }
@@ -359,7 +372,7 @@ html {
 .hero {
   width: 100%;
   min-height: 400px;
-  background: url(img/b_g1.jpg) center center no-repeat;
+  background: url(../img/b_g1.jpg) center center no-repeat;
   background-size: cover;
   position: relative; }
   .hero__line {
@@ -371,7 +384,7 @@ html {
     top: 15%; }
     @media screen and (max-width: 767.98px) {
       .hero__line {
-        top: 10%;
+        top: 5%;
         height: 400px; } }
   .hero__line .container {
     height: 100%; }
@@ -536,15 +549,23 @@ html {
     flex-direction: column;
     text-align: center; }
   .price__title {
-    padding: 30px 0px 30px 0px;
+    padding: 30px 0px;
     color: #2f3640; }
-    .price__title h2 {
-      font-size: 1.25rem;
-      font-weight: 700; }
   .price__row {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
+  .price__calctitle {
+    padding: 40px 0px;
+    color: #2f3640; }
+    @media screen and (max-width: 767.98px) {
+      .price__calctitle {
+        padding: 15px 0px; } }
+  .price__btn {
+    margin: 10px auto 40px; }
+    @media screen and (max-width: 767.98px) {
+      .price__btn {
+        margin: 10px auto 20px; } }
 
 .block {
   flex-basis: 585px;
@@ -558,28 +579,32 @@ html {
     .block {
       padding: 20px 0;
       flex-basis: 560px; } }
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 700px) {
     .block {
       padding: 0;
       flex-direction: column;
-      height: 700px;
+      height: 670px;
       align-items: center; } }
 
 .card__body {
   width: 222px;
   padding: 0px 1rem 0px 1rem;
+  border-radius: 6px;
   height: 316px;
   box-shadow: 0 0 22px -2px rgba(0, 0, 0, 0.35);
   background-color: #ffffff; }
+  @media screen and (max-width: 992.98px) {
+    .card__body {
+      height: 286px; } }
   @media screen and (max-width: 767.98px) {
     .card__body {
-      width: 222px;
-      height: 316px; } }
+      width: 222px; } }
 
 .card__title {
-  padding-top: .5rem;
+  padding: .5rem 0;
   color: #2f3640;
   font-size: 1.5rem;
+  line-height: 1;
   font-weight: 700; }
   @media screen and (max-width: 992.98px) {
     .card__title {
@@ -588,10 +613,101 @@ html {
 .card__img img {
   display: block;
   max-height: 110px;
-  margin: 1rem auto; }
+  margin: 0 auto; }
 
 .card__cena {
   /* Style for "120" */
   color: #c0392b;
   font-size: 36px;
   font-weight: 700; }
+
+.card__btn {
+  margin-top: .5rem; }
+  .card__btn .card-btn {
+    display: block;
+    color: #f5f6fa;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-transform: uppercase; }
+
+.btn {
+  padding: 10px 20px;
+  background-image: linear-gradient(180deg, #FFB32C 0%, #d4860c 100%);
+  border-radius: 6px; }
+
+.link-btn {
+  color: #f5f6fa;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+.preim__title {
+  text-align: center;
+  padding: 30px 0;
+  text-transform: uppercase; }
+
+.preim__row {
+  margin-bottom: 30px; }
+
+.preim__block {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around; }
+  @media screen and (max-width: 767.98px) {
+    .preim__block {
+      flex-direction: column;
+      align-items: center;
+      height: 240px;
+      margin: 0 auto; } }
+
+.preim__page {
+  width: 320px;
+  height: 96px;
+  border-radius: 8px;
+  background-color: #dcdde1;
+  display: flex;
+  align-items: center; }
+
+.preim__img {
+  margin: 0 1rem; }
+
+.preim__name {
+  text-align: center;
+  margin-right: .5rem;
+  text-transform: uppercase; }
+  .preim__name p {
+    font-weight: 700;
+    font-size: 1.1rem; }
+
+.work {
+  width: 100%;
+  background-color: #2f3640; }
+  .work__title {
+    text-align: center;
+    padding: 30px 0; }
+    .work__title h2 {
+      text-transform: uppercase;
+      color: #f5f6fa; }
+  .work__line {
+    width: 100%; }
+    .work__line:nth-child(even) {
+      background-color: #454f5d; }
+  .work__block {
+    max-width: 700px;
+    height: 64px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; }
+  .work__img {
+    margin: 0 2rem; }
+  .work__name {
+    margin: 0 1rem;
+    color: #f5f6fa;
+    text-transform: uppercase; }
+    .work__name p {
+      font-size: 1.1rem;
+      font-weight: bold; }
+      @media screen and (max-width: 767.98px) {
+        .work__name p {
+          font-size: .75rem; } }
