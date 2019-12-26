@@ -373,45 +373,84 @@
                 </div>
             </div>
         </section>
-    <div class="modal">
-          <input class="modal-open" id="modal-2" type="checkbox" hidden>
-          <div class="modal-wrap" aria-hidden="true" role="dialog">
-            <label class="modal-overlay" for="modal-2"></label>
-            <div class="modal-dialog">
-              <div class="modal-header">
-                <h2>ПОЗВОНИТЕ</h2>
-                <div class="modal-phone">
-                <a href="tel:+380672718678">+38(067) 271 96 78</a>
-                </div>
-                <p>или оставитьте заявку на сайте</p>
-              </div>
-              <div class="modal-body">
-                  <form >
-                     <input name="name" placeholder="* Укажите Ваше имя" class="textbox" required />
-                     <input name="emailaddress" placeholder="* Укажите Ваш Email" class="textbox" type="email" required />
-                      <input name="submit" class="button" type="submit" value="Отправить" />
-                  </form>
-              </div>
-                
-              <label class="btn-close" for="modal-2" aria-hidden="true">×</label>
+
+    <section class="photo">
+        <div class="container">
+            <div class="photo__title">
+                <h2>Огромный опыт работ</h2>
             </div>
-          </div>
+            <div class="photo__row">
+                <div class="photo__block-bg">
+                    <a href="foto.html" class="photo__bg-link"><img src="img/foto/potolki_07.jpg" alt=""></a>
+                </div>
+                <div class="photo__block-sm">
+                    <a href="foto.html" class="photo__sm-link"><img src="img/foto/potolki_05.jpg" alt=""></a>
+                    <a href="foto.html" class="photo__sm-link"><img src="img/foto/potolki_08.jpg" alt=""></a>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section class="quesion">
+        <div class="container">
+            <div class="quesion__row">
+                <div class="quesion__ticker">
+                    <div class="quesion__text"><h2>
+                        На какую высоту опустится потолок?
+                    </h2></div>
+                </div>
+                <div class="quesion__title">
+                    <p>Узнайте ответ на этот и другие вопросы</p>
+                </div>
+                <div class="quesion__subscribe">
+                    <input name="address" placeholder="* Укажите Ваш Email" class="quesion__input" type="email" required />
+                    <label class="button" for="#">Подписаться</label></div>
+            </div>
+        </div>
+    </section>
+    <div class="modal">
+      <input class="modal-open" id="modal-2" type="checkbox" hidden>
+      <div class="modal-wrap" aria-hidden="true" role="dialog">
+        <label class="modal-overlay" for="modal-2"></label>
+        <div class="modal-dialog">
+          <div class="modal-header">
+            <h2>ПОЗВОНИТЕ</h2>
+            <div class="modal-phone">
+            <a href="tel:+380672718678">+38(067) 271 96 78</a>
+            </div>
+            <p>или оставитьте заявку на сайте</p>
+          </div>
+          <div class="modal-body">
+              <form >
+                 <input name="name" placeholder="* Укажите Ваше имя" class="textbox" required />
+                 <input name="emailaddress" placeholder="* Укажите Ваш Email" class="textbox" type="email" required />
+                  <input name="submit" class="button" type="submit" value="Отправить" />
+              </form>
+          </div>
+            
+          <label class="btn-close" for="modal-2" aria-hidden="true">×</label>
+        </div>
+      </div>
+    </div>
     
             <script>
-                        menuToggle();
+                    menuToggle();
+                
+                    function menuToggle() {
+                        document.querySelector(".header__burger").onclick = function() {
+                            document.querySelector(".header__burger").classList.toggle("active")
+                            document.querySelector(".header__menu").classList.toggle("active")
+                            console.log(this);
+                            document.querySelector("body").classList.toggle("lock")
+                        };
+            
+                    }
+                    </script>
+            
+            
+            
                     
-                        function menuToggle() {
-                            document.querySelector(".header__burger").onclick = function() {
-                                document.querySelector(".header__burger").classList.toggle("active")
-                                document.querySelector(".header__menu").classList.toggle("active")
-                                console.log(this);
-                                document.querySelector("body").classList.toggle("lock")
-                            };
-                
-                        }
-                        </script>
-                
+            
 </body>
 
 </html>

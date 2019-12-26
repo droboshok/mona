@@ -148,6 +148,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/styles/_photo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_photo.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/#source/styles/_preim.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -170,6 +183,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_price.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/#source/styles/_quesion.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_quesion.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -213,6 +239,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/ticker.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/ticker.html",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -220,6 +254,47 @@
 		"oA": 0,
 		"oAP": "/.gitignore",
 		"oF": 0
+		},
+	"/css/asd.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/asd-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/jquery-1.9.1.min.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/css/jquery-1.9.1.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/css/st-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/st-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/st.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/st-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/css/style.css": {
 		"aP": 1,
@@ -476,6 +551,127 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/foto/1.jpg": {
+		"ft": 16384,
+		"iS": 59991,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/2.jpg": {
+		"ft": 16384,
+		"iS": 75630,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/3-8.jpg": {
+		"ft": 16384,
+		"iS": 58849,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/3-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/3.jpg": {
+		"ft": 16384,
+		"iS": 72593,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/4.jpg": {
+		"ft": 16384,
+		"iS": 7050,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/P8310191.JPG": {
+		"ft": 16384,
+		"iS": 294434,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/P8310191.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/P8310192.JPG": {
+		"ft": 16384,
+		"iS": 327201,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/P8310192.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/potolki_04.jpg": {
+		"ft": 16384,
+		"iS": 218710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/potolki_04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/potolki_05.jpg": {
+		"ft": 16384,
+		"iS": 457342,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/potolki_05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/potolki_07.jpg": {
+		"ft": 16384,
+		"iS": 39139,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/potolki_07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/foto/potolki_08.jpg": {
+		"ft": 16384,
+		"iS": 40879,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/foto/i/potolki_08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/i/ceiling_1_ur.svg": {
 		"ft": 2097152,
@@ -749,12 +945,28 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/ticker.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/ticker.html",
+		"oF": 0
+		},
 	"/Untitled 4.sketch": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/Untitled 4.sketch",
+		"oF": 0
+		},
+	"/Без названия 4.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Без названия 4.txt",
 		"oF": 0
 		}
 	},

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Монтажник</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <link rel="stylesheet" href="css/st.css" />
+    <link rel="stylesheet" href="css/asd.css" />
+    <!--         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+        <link rel="manifest" href="favicons/manifest.json">
+        <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#f6a623">
+        <meta name="theme-color" content="#ffffff"> -->
+    <script type="text/javascript" async="" src="css/css/jquery-1.9.1.min.js"></script>
+</head>
+
+<body>
+    <div class="header-sub clearfix">
+        <div id="ticker" class="news-ticker mh-col mh-2-3 clearfix"> <span class="ticker-title"> Hot Topics </span>
+            <ul class="ticker-content"></ul>
+            <li class="ticker-item" style="display: block;"> <a class="ticker-item-link" href="https://demo.mhthemes.com/newsdesk/soldering-more-efficient-in-manual-labor/" title="Lorem ipsum dolor sit amet consectetur adipiscing elit"> <span class="ticker-item-date">January 29, 2015</span> <span class="ticker-item-separator">|</span> <span class="ticker-item-title">Lorem ipsum dolor sit amet consectetur adipiscing elit</span> </a></li>
+            <li class="ticker-item" style="display: block; overflow: hidden; height: 1px; padding-top: 0px; margin-top: 0px; padding-bottom: 0px; margin-bottom: 0px;"> <a class="ticker-item-link" href="https://demo.mhthemes.com/newsdesk/kreml-news-from-moscow/" title="Aculis pretium congue integer lacinia vulputate efficit"> <span class="ticker-item-date">January 29, 2015</span> <span class="ticker-item-separator">|</span> <span class="ticker-item-title">Aculis pretium congue integer lacinia vulputate efficit</span> </a></li>
+            <li class="ticker-item" style="display: block;"> <a class="ticker-item-link" href="https://demo.mhthemes.com/newsdesk/virginia-lakers-lost-in-last-game/" title="Lorem ipsum dolor sit amet consectetur adipiscing elit"> <span class="ticker-item-date">January 29, 2015</span> <span class="ticker-item-separator">|</span> <span class="ticker-item-title">Lorem ipsum dolor sit amet consectetur adipiscing elit</span> </a></li>
+            <li class="ticker-item" style="display: block;"> <a class="ticker-item-link" href="https://demo.mhthemes.com/newsdesk/paragliding-on-your-holiday-trip/" title="Cum sociis natoque penatibus et magnis dis parturient montes"> <span class="ticker-item-date">January 29, 2015</span> <span class="ticker-item-separator">|</span> <span class="ticker-item-title">Cum sociis natoque penatibus et magnis dis parturient montes</span> </a></li>
+            <li class="ticker-item" style="display: block;"> <a class="ticker-item-link" href="https://demo.mhthemes.com/newsdesk/government-submits-legal-bill/" title="Barius iaculis quis eu est lorem ipsum dolor sit amet nec accumsan enim"> <span class="ticker-item-date">January 30, 2015</span> <span class="ticker-item-separator">|</span> <span class="ticker-item-title">Barius iaculis quis eu est lorem ipsum dolor sit amet nec accumsan enim</span> </a></li>
+        </div>
+            
+    </div>
+    <script>
+    function tick() {
+        $('#ticker li:first').slideUp(function() {
+            $(this).appendTo($('#ticker')).slideDown()
+        })
+    }
+
+    setInterval(function() { tick() }, 4000)
+    });
+    </script>
+</body>
+
+</html>

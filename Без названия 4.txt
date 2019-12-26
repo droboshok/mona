@@ -1,0 +1,12 @@
+#10ac84
+#1dd1a1
+#ff9f43
+
+rgba(34, 47, 62,1.0)
+
+#f5f6fa - Lynx White
+#dcdde1 - hint of pensive
+
+#2f3640 - Electromagnetic
+
+#353b48 - Blue Nights
