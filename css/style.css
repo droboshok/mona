@@ -841,8 +841,9 @@ h4 {
         align-self: center; } }
   .footer__c-title {
     color: #f5f6fa;
-    text-align: center;
-    text-transform: uppercase; }
+    text-align: center; }
+    .footer__c-title h3 {
+      text-transform: uppercase; }
   .footer__c-block {
     margin-top: 1rem; }
   .footer__c-list {
