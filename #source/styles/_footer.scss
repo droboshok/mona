@@ -1,0 +1,118 @@
+.footer {
+
+  width: 100%;
+  background-color: $bgc;
+
+    a {
+      color:$h1;
+    }
+  // .footer__title
+  &__title {
+    padding: 20px 0;
+    text-align: center;
+    img{
+      height: 24px;
+    }
+  }
+  // .footer__logo
+  &__logo {}
+  // .footer__row
+  &__row {
+    display: flex;
+    justify-content: space-around;
+      @media screen and (max-width: $md4+px) { 
+            flex-direction: column;
+        }
+  }
+  // .footer__sitemap
+  &__sitemap {
+    color: $h1;
+      @media screen and (max-width: $md4+px) { 
+           display: none; 
+          text-align: center;
+          margin-top: 20px;
+        }
+
+  }
+  // .footer__sitemap-link
+  &__sitemap-link {
+    h3{
+     padding: 0px 0 10px;
+    }
+  }
+  // .footer__ul
+  &__ul {}
+  // .footer__li
+  &__li {
+    list-style-type: disc;
+    height: 24px;
+    margin: 4px 0;
+    @media screen and (max-width: $md4+px) { 
+      margin: 8px 0;
+      font-size: 14px;
+    }
+    a{
+      display: block;
+    }
+  }
+  // .footer__contact
+  &__contact {
+
+    flex: 0 1 300px;
+      @media screen and (max-width: $md4+px) { 
+            order:-1;
+            flex:0 1 0;
+            width: 90%;
+            align-self: center;
+        }
+  }
+  // .footer__c-title
+  &__c-title {
+    color: $h1;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  // .footer__c-block
+  &__c-block {
+  margin-top: 1rem;
+  }
+  // .footer__c-list
+  &__c-list {
+        // width: 90%;
+    // list-style: none;
+    text-align: left;
+    margin: 0 auto;
+    li{
+      height: 44px;
+    color: $h1;
+    font-size: 1.1rem;
+    padding: .5rem 0;
+    }
+  }
+  // .footer__c-item
+  &__c-item {
+      display: block;
+    float: right;
+        font-size: 1.1rem;
+  }
+  // .footer__social
+  &__social {
+    text-align: center;
+    margin: 1rem 0;
+    svg{width: 32px;
+        margin: 10px 1rem 10px 1rem;}
+  }
+  // .footer__by
+  &__by {
+    text-align: center;
+    color: darken($bg-sec,30%);
+    padding-bottom: 20px;
+    a{
+      color: darken($bg-sec,10%);
+      &:hover{
+        color:$bg-sec;
+      }
+    }
+  }
+}
+

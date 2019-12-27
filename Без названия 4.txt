@@ -10,3 +10,5 @@ rgba(34, 47, 62,1.0)
 #2f3640 - Electromagnetic
 
 #353b48 - Blue Nights
+#8a8d9a
+#7f8fa6 - Blueberry Soda

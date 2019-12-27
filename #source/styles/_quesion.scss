@@ -12,30 +12,32 @@
  
       padding: 30px 0px 10px 0px;
       h2{
-        color: $h1;
+    color: $one;
       }
   }
   // .quesion__text
   &__text {}
   // .quesion__title
   &__title {
-
+        color: $h1;
   }
   // .quesion__subscribe
-  &__subscribe {
+  // &__subscribe 
+  &__form{
     display: flex;
     justify-content: center;
     padding: 20px 0 30px 0;
-    label{
+          .button {
       padding: 10px 20px;
           font-size: 20px;
           color: $h1;
+          border: 0;
           border-radius: 6px;
           @media screen and (max-width: $md3+px) { 
             margin: 0 20px;
 
         }
-    }
+      }
       @media screen and (max-width: $md3+px) { 
             flex-direction: column;
 
@@ -43,10 +45,13 @@
   }
 
   &__input{
-    flex: 0 1 250px;
+    flex: 0 1 400px;
     padding-left: 10px;
     margin: 0 30px;
     border-radius: 6px;
+    
+
+
     @media screen and (max-width: $md3+px) { 
             flex: 0 1 44px;
             margin: 20px 20px;
@@ -55,6 +60,9 @@
           outline:none;
     border:#0097e6 1px solid;
     color:#0097e6;
+    }
+    &::placeholder{
+      color :darken($bg-sec,30%);
     }
   }
 }
