@@ -1,9 +1,12 @@
 .hero {
-    max-width: 1170px;
+    // max-width: 1170px;
     margin: 0 auto;
     min-height: 400px;
-    background: url(../img/b_g1.jpg) center center no-repeat;
-    background-size: cover;
+    background:url(../img/b_g1.jpg),linear-gradient(to top,rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64));
+
+    background-repeat: no-repeat;
+    background-position:center center;
+    // background-size: cover;
     position: relative;
 
     // overflow: hidden;
