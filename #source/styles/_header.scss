@@ -19,6 +19,7 @@
 
     // .header__logo
     &__logo {
+        margin-left: 1rem;
         z-index: 3;
 
         @media screen and (max-width: $md4+px) {
@@ -133,10 +134,12 @@
 
     // .menu__items
     &__items {
-
+        
         display: flex;
         align-items: center;
-
+          @media screen and (min-width: $md2+px) { 
+                margin-right: 1rem;
+            }
         @media screen and (max-width: $md3+px) {
             display: block;
             margin: 100px 0px 0px 0px;

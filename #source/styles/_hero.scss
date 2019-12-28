@@ -1,5 +1,6 @@
 .hero {
-    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
     min-height: 400px;
     background: url(../img/b_g1.jpg) center center no-repeat;
     background-size: cover;
@@ -51,7 +52,7 @@
 
     &__title h1 {
         color: $h1;
-
+        margin: 0.67em 1rem;
         @media screen and (max-width: $md3+px) {
             font-size: 1.75rem;
             margin-bottom: 0;
@@ -83,7 +84,12 @@
 
 
 }
-
+    .hero:before {
+ conten:'';
+ width: 100%;
+ position: absolute;
+ background-color: red;
+}
 
 .button {
     display: block;

@@ -230,12 +230,12 @@ html {
       padding: 0 1rem; } }
 
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   color: #2f3640; }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 700; }
 
 h4 {
@@ -257,6 +257,7 @@ h4 {
       .header__row {
         height: 50px; } }
   .header__logo {
+    margin-left: 1rem;
     z-index: 3; }
     @media screen and (max-width: 479.98px) {
       .header__logo {
@@ -326,6 +327,9 @@ h4 {
 .menu__items {
   display: flex;
   align-items: center; }
+  @media screen and (min-width: 992.98px) {
+    .menu__items {
+      margin-right: 1rem; } }
   @media screen and (max-width: 767.98px) {
     .menu__items {
       display: block;
@@ -370,7 +374,8 @@ h4 {
       left: 0; }
 
 .hero {
-  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
   min-height: 400px;
   background: url(../img/b_g1.jpg) center center no-repeat;
   background-size: cover;
@@ -403,7 +408,8 @@ h4 {
       .hero__title {
         padding: 0px 20px 0px 20px; } }
   .hero__title h1 {
-    color: #f5f6fa; }
+    color: #f5f6fa;
+    margin: 0.67em 1rem; }
     @media screen and (max-width: 767.98px) {
       .hero__title h1 {
         font-size: 1.75rem;
@@ -422,6 +428,12 @@ h4 {
         padding: 0 1rem; } }
   .hero__modal label {
     margin: 2rem auto; }
+
+.hero:before {
+  conten: '';
+  width: 100%;
+  position: absolute;
+  background-color: red; }
 
 .button {
   display: block;
@@ -549,14 +561,14 @@ h4 {
     flex-direction: column;
     text-align: center; }
   .price__title {
-    padding: 30px 0px;
+    padding: 30px 0px 10px 0;
     color: #2f3640; }
   .price__row {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap; }
   .price__calctitle {
-    padding: 40px 0px;
+    padding: 40px 0px 20px 0;
     color: #2f3640; }
     @media screen and (max-width: 767.98px) {
       .price__calctitle {
@@ -677,7 +689,7 @@ h4 {
   margin-right: .5rem;
   text-transform: uppercase; }
   .preim__name p {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.1rem; }
 
 .work {
@@ -690,9 +702,12 @@ h4 {
       text-transform: uppercase;
       color: #f5f6fa; }
   .work__line {
-    width: 100%; }
+    max-width: 1170px;
+    margin: 0 auto; }
     .work__line:nth-child(even) {
       background-color: #454f5d; }
+    .work__line:last-child {
+      height: 2rem; }
   .work__block {
     max-width: 700px;
     height: 64px;

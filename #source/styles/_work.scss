@@ -15,12 +15,15 @@
 
   // .work__line
   &__line {
-    width: 100%;
+   max-width: 1170px;
+   margin: 0 auto;
 
       &:nth-child(even){
       background-color: lighten($h2, 10%);
     }
-
+    &:last-child{
+    height: 2rem;
+}
   }
   // .work__block
   &__block {
