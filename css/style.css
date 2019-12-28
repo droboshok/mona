@@ -811,6 +811,47 @@ h4 {
     .quesion__input::placeholder {
       color: #8a8d9a; }
 
+@keyframes tickerv {
+  0% {
+    margin-top: 0; }
+  25% {
+    margin-top: -26px; }
+  50% {
+    margin-top: -52px; }
+  75% {
+    margin-top: -78px; }
+  100% {
+    margin-top: 0; } }
+
+.quesion__text {
+  box-sizing: content-box;
+  height: 25px;
+  overflow: hidden; }
+  @media screen and (max-width: 767.98px) {
+    .quesion__text {
+      height: 65px; } }
+
+.quesion__text ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  animation-name: tickerv;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(1, 0, 0.5, 0); }
+
+.quesion__text ul:hover {
+  animation-play-state: paused; }
+
+.quesion__text ul li {
+  font-size: 1.25rem;
+  color: #FFB32C;
+  line-height: 26px; }
+  @media screen and (max-width: 767.98px) {
+    .quesion__text ul li {
+      font-size: 1rem;
+      line-height: 20px; } }
+
 .footer {
   width: 100%;
   background-color: #353b48; }
