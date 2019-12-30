@@ -12,6 +12,15 @@
 
     // overflow: hidden;
     // .hero__line
+      @media screen and (max-width: $md2+px) { 
+            background:url(../img/b_g1_md2.jpg),linear-gradient(to top,rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64));
+        }
+              @media screen and (max-width: $md3+px) { 
+            background:url(../img/b_g1_md3.jpg),linear-gradient(to top,rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64));
+        }
+              @media screen and (max-width: $md4+px) { 
+            background:url(../img/b_g1_md4.jpg),linear-gradient(to top,rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64));
+        }
     &__line {
         height: 300px;
         width: 100%;

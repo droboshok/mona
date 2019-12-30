@@ -522,6 +522,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/b_g1_md2.jpg": {
+		"ft": 16384,
+		"iS": 41466,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/i/b_g1_md2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/img/b_g1_md3.jpg": {
+		"ft": 16384,
+		"iS": 28082,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/i/b_g1_md3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/img/b_g1_md4.jpg": {
+		"ft": 16384,
+		"iS": 13916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/i/b_g1_md4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
 	"/img/b_g2.jpg": {
 		"ft": 16384,
 		"iS": 78899,
@@ -802,6 +835,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/i/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/i/i/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/images/b_g1.jpg": {
 		"ft": 16384,
 		"iS": 158211,
@@ -819,7 +862,7 @@
 		"oA": 0,
 		"oAP": "/img/i/logo.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
@@ -960,11 +1003,51 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/Social/gmail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/gmail.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/Social/google.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/img/Social/i/google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/i/gmail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/i/gmail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/i/telephone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/i/telephone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/i/viber1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/i/viber1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -980,11 +1063,101 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/Social/mailing.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/mailing.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/mobile-phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/mobile-phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/telegram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/telegram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/telegram5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/telegram5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/telephone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/telephone.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/Social/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 0,
 		"oAP": "/img/Social/i/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/viber.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/viber.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/viber1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/viber1.svg",
+		"oF": 0,
+		"opt": 1,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/viber5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/viber5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Social/whatsapp.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Social/i/whatsapp.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
