@@ -142,10 +142,24 @@
 
         }
 
+
+
 .ceiling {
   background-image: url(../img/Price/ceiling_1_ur.svg) ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 110px;
+}
+.partition {
+  background-image: url(../img/Price/partition.svg) ;
+}
+.wall {
+  background-image: url(../img/Price/wall_CD.svg) ;
+}
+.p_115 {
+  background-image: url(../img/Price/p_115.svg) ;
 }
 
+.ceiling,.p_115,.partition,.wall{
+  background-repeat: no-repeat;
+  background-position:  center center;
+  // background-size: cover;
+  height: 110px;
+}

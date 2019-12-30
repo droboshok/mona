@@ -101,9 +101,20 @@
   font-weight: 700; }
 
 .ceiling {
-  background-image: url(../img/Price/ceiling_1_ur.svg);
+  background-image: url(../img/Price/ceiling_1_ur.svg); }
+
+.partition {
+  background-image: url(../img/Price/partition.svg); }
+
+.wall {
+  background-image: url(../img/Price/wall_CD.svg); }
+
+.p_115 {
+  background-image: url(../img/Price/p_115.svg); }
+
+.ceiling, .p_115, .partition, .wall {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center center;
   height: 110px; }
 
 .preim__title {

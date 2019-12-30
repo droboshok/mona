@@ -255,9 +255,13 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center; }
+    @media screen and (max-width: 992.98px) {
+      .header__row {
+        margin: 0px 8px 0px 8px; } }
     @media screen and (max-width: 479.98px) {
       .header__row {
-        height: 50px; } }
+        height: 50px;
+        margin: 0; } }
   .header__logo {
     margin-left: 1rem;
     z-index: 3; }
