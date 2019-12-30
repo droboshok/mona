@@ -70,6 +70,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/styles/_global.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/#source/styles/_header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -105,19 +118,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_main.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#source/styles/_menu.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_menu.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -239,6 +239,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/styles/second.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/second.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/#source/styles/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -306,6 +319,16 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"/css/second.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/second-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"/css/st-min.css": {
 		"aP": 1,
@@ -950,16 +973,6 @@
 		"opt": 0,
 		"q": 80
 		},
-	"/img/Price/ceiling_1_ur.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 0,
-		"oAP": "/img/Price/i/ceiling_1_ur.svg",
-		"oF": 0,
-		"opt": 1,
-		"plM": 52780316221407,
-		"prP": 0
-		},
 	"/img/Price/p_115.jpg": {
 		"ft": 16384,
 		"iS": 16400,
@@ -970,6 +983,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
+		},
+	"/img/Price/p_115.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Price/i/p_115.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/img/Price/partition.jpg": {
 		"ft": 16384,
@@ -992,6 +1015,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
+		},
+	"/img/Price/wall_CD1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 0,
+		"oAP": "/img/Price/i/wall_CD1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/img/Social/facebook.svg": {
 		"ft": 2097152,
