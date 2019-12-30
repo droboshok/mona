@@ -226,6 +226,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/styles/foto.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/foto.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/#source/styles/style.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -238,6 +251,14 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"/#source/test.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test.html",
+		"oF": 0
 		},
 	"/#source/ticker.kit": {
 		"cB": 0,
@@ -262,6 +283,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/asd-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/foto.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/foto-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -1073,12 +1104,28 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test.html",
+		"oF": 0
+		},
 	"/ticker.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/ticker.html",
+		"oF": 0
+		},
+	"/untitled": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/untitled",
 		"oF": 0
 		},
 	"/Untitled 4.sketch": {

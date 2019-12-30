@@ -1,5 +1,6 @@
 .hero {
-    // max-width: 1170px;
+    // max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     min-height: 400px;
     background:url(../img/b_g1.jpg),linear-gradient(to top,rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64));
@@ -55,10 +56,10 @@
 
     &__title h1 {
         color: $h1;
-        margin: 0.67em 1rem;
+        margin: 0.67rem 1rem;
         @media screen and (max-width: $md3+px) {
             font-size: 1.75rem;
-            margin-bottom: 0;
+            margin: 0.67rem .2rem 0 .2rem;
         }
 
 
@@ -81,6 +82,9 @@
     }
         &__modal label {
           margin: 2rem auto;
+            @media screen and (max-width: $md4+px) { 
+                  margin: 1rem auto;
+              }
 
 
 }

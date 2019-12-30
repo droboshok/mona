@@ -5,6 +5,8 @@
   // .quesion__row
   &__row {
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
   }
   // .quesion__ticker
   &__ticker {
@@ -73,13 +75,21 @@
     50% {margin-top: -52px;}
     75% {margin-top: -78px;}
     100% {margin-top: 0;}
+    
+      @media screen and (max-width: $md4+px) { 
+             0% {margin-top: 0;}
+    25% {margin-top: -40px;}
+    50% {margin-top: -80px;}
+    75% {margin-top: -120px;}
+    100% {margin-top: 0;}
+        }
   }
   .quesion__text {
     box-sizing: content-box;
     height: 25px;
     overflow: hidden;
-      @media screen and (max-width: $md3+px) { 
-            height: 65px;
+      @media screen and (max-width: $md4+px) { 
+            height: 40px;
         }
   } 
   .quesion__text ul {
@@ -98,7 +108,7 @@
     font-size: 1.25rem;
     color: $one;
     line-height: 26px;
-      @media screen and (max-width: $md3+px) { 
+      @media screen and (max-width: $md4+px) { 
             font-size: 1rem;
             line-height: 20px;
         }
