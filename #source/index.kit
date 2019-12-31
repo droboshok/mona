@@ -10,9 +10,7 @@
     <meta http-equiv="Cache-Control" content="no-cache">
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preload" href="css/second.css"  as="style" onload="this.rel='stylesheet'" />
-          <noscript>
-        <link rel="stylesheet" href="css/second.css"  />
-    </noscript>
+
 
     <!-- <link rel="stylesheet" href="css/foto.css"> -->
     <!--         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -21,7 +19,7 @@
         <link rel="manifest" href="favicons/manifest.json">
         <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#f6a623">
         <meta name="theme-color" content="#ffffff"> -->
-                <style>
+<!--                 <style>
             .hero__title h1 {color: #f5f6fa;
         margin: 0.67rem 1rem;
         font-size: 2rem;
@@ -30,7 +28,7 @@
         <style media="screen and (max-width:500px)">
             .hero__title h1 {font-size: 1.75rem;
              margin: 0.67rem .2rem 0 .2rem;}
-        </style>
+        </style> -->
 
 
 </head>
@@ -185,13 +183,16 @@
             <div class="photo__row">
                 <div class="photo__block-bg">
                     <a href="foto.html" class="photo__bg-link">
-                        <img src="img/foto/potolki_07.jpg" alt="">
+                        <img class="delay"  data-src="img/foto/potolki_07.jpg" />
+                        <!-- <img src="img/foto/potolki_07.jpg" alt="" width="400px" height="400px"> -->
 
                     </a>
                 </div>
                 <div class="photo__block-sm">
-                    <a href="foto.html" class="photo__sm-link"><img src="img/foto/potolki_05.jpg" alt=""></a>
-                    <a href="foto.html" class="photo__sm-link"><img src="img/foto/potolki_08.jpg" alt=""></a>
+                    <a href="foto.html" class="photo__sm-link">
+                        <img class="delay"  data-src="img/foto/potolki_05.jpg" alt=""></a>
+                    <a href="foto.html" class="photo__sm-link">
+                        <img class="delay"  data-src="img/foto/potolki_08.jpg" alt=""></a>
                 </div>
             </div>
         </div>

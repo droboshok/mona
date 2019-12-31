@@ -424,6 +424,13 @@ h4 {
     @media screen and (max-width: 992.98px) {
       .hero__title {
         padding: 0px 20px 0px 20px; } }
+  .hero__title h1 {
+    color: #f5f6fa;
+    margin: 0.67rem 1rem; }
+    @media screen and (max-width: 767.98px) {
+      .hero__title h1 {
+        font-size: 1.75rem;
+        margin: 0.67rem .2rem 0 .2rem; } }
   .hero__modal {
     color: #f5f6fa;
     text-align: center;
