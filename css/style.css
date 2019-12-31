@@ -384,19 +384,7 @@ h4 {
   width: 100%;
   margin: 0 auto;
   min-height: 400px;
-  background: url(../img/b_g1.jpg), linear-gradient(to top, rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64));
-  background-repeat: no-repeat;
-  background-position: center center;
   position: relative; }
-  @media screen and (max-width: 992.98px) {
-    .hero {
-      background: url(../img/b_g1_md2.jpg), linear-gradient(to top, rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64)); } }
-  @media screen and (max-width: 767.98px) {
-    .hero {
-      background: url(../img/b_g1_md3.jpg), linear-gradient(to top, rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64)); } }
-  @media screen and (max-width: 479.98px) {
-    .hero {
-      background: url(../img/b_g1_md4.jpg), linear-gradient(to top, rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64)); } }
   .hero__line {
     height: 300px;
     width: 100%;
