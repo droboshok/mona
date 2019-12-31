@@ -12,7 +12,7 @@
 	"/#source/about.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/about.html",
 		"oF": 0
@@ -20,7 +20,7 @@
 	"/#source/index.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/index.html",
 		"oF": 2
@@ -276,7 +276,7 @@
 	"/#source/temp.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/temp.html",
 		"oF": 0
@@ -284,7 +284,7 @@
 	"/#source/test.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/test.html",
 		"oF": 0
@@ -292,7 +292,7 @@
 	"/#source/ticker.kit": {
 		"cB": 0,
 		"ft": 2048,
-		"hM": 0,
+		"hM": 1,
 		"oA": 0,
 		"oAP": "/ticker.html",
 		"oF": 0
@@ -3217,7 +3217,7 @@
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 1,
 		"shouldRunCacheBuster": 0,
-		"shouldRunHTMLMinifier": 0
+		"shouldRunHTMLMinifier": 1
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
