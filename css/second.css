@@ -69,7 +69,7 @@
     .card__title {
       font-size: 1rem; } }
 
-.card__img img {
+.card__img {
   display: block;
   max-height: 110px;
   margin: 0 auto; }
@@ -101,21 +101,21 @@
   font-weight: 700; }
 
 .ceiling {
-  background-image: url(../img/Price/ceiling_1_ur.svg); }
+  background-image: url(../img/Price/ceiling_1_ur-110.jpg); }
 
 .partition {
-  background-image: url(../img/Price/partition.svg); }
+  background-image: url(../img/Price/partition-110.jpg); }
 
 .wall {
-  background-image: url(../img/Price/wall_CD.svg); }
+  background-image: url(../img/Price/wall_CD-110.jpg); }
 
 .p_115 {
-  background-image: url(../img/Price/p_115.svg); }
+  background-image: url(../img/Price/p_115-110.jpg); }
 
 .ceiling, .p_115, .partition, .wall {
   background-repeat: no-repeat;
   background-position: center center;
-  height: 110px; }
+  height: 100%; }
 
 .preim__title {
   text-align: center;
@@ -147,6 +147,8 @@
 
 .preim__img {
   margin: 0 1rem; }
+  .preim__img svg {
+    width: 72px; }
 
 .preim__name {
   text-align: center;

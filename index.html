@@ -9,12 +9,10 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="Cache-Control" content="no-cache">
     <link rel="stylesheet" href="css/style.css" />
-
-    <link type="text/css" href="css/second.css" rel="preload" as="style" onload="this.rel='stylesheet'" />
-    <noscript>
-        <link type="text/css" href="css/second.css" rel="stylesheet" />
+    <link rel="preload" href="css/second.css"  as="style" onload="this.rel='stylesheet'" />
+          <noscript>
+        <link rel="stylesheet" href="css/second.css"  />
     </noscript>
-
 
     <!-- <link rel="stylesheet" href="css/foto.css"> -->
     <!--         <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
@@ -23,6 +21,18 @@
         <link rel="manifest" href="favicons/manifest.json">
         <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#f6a623">
         <meta name="theme-color" content="#ffffff"> -->
+                <style>
+            .hero__title h1 {color: #f5f6fa;
+        margin: 0.67rem 1rem;
+        font-size: 2rem;
+       }
+        </style>
+        <style media="screen and (max-width:500px)">
+            .hero__title h1 {font-size: 1.75rem;
+             margin: 0.67rem .2rem 0 .2rem;}
+        </style>
+
+
 </head>
 
 <body>
@@ -78,7 +88,7 @@
                 <nav class="header__menu menu">
                     <ul class="menu__items">
                         <li><a class="menu__link" href="price.html">Прайc</a></li>
-                        <li><a class="menu__link" href="#">О Нас</a></li>
+                        <li><a class="menu__link" href="about.html">О Нас</a></li>
                         <li><a class="menu__link" href="#">Галерея</a></li>
                         <li><a class="menu__link" href="#">Статьи</a></li>
                         <li><a class="menu__link" href="#">Контакты</a></li>
@@ -178,7 +188,9 @@
                 <div class="preim__block">
                     <div class="preim__page">
                         <div class="preim__img">
-                            <img src="img/Card/clock.svg" alt="">
+                            <svg>
+                                <use xlink:href="img/sprite.svg#clock"></use>
+                            </svg>
                         </div>
                         <div class="preim__name">
                             <p>БЫСТРЫЙ И КАЧЕСТВЕННЫЙ МОНТАЖ</p>
@@ -186,7 +198,9 @@
                     </div>
                     <div class="preim__page">
                         <div class="preim__img">
-                            <img src="img/Card/molot.svg" alt="">
+                            <svg>
+                                <use xlink:href="img/sprite.svg#molot"></use>
+                            </svg>
                         </div>
                         <div class="preim__name">
                             <p>Выполнения сложных и объемных работ</p>
@@ -196,7 +210,9 @@
                 <div class="preim__block">
                     <div class="preim__page">
                         <div class="preim__img">
-                            <img src="img/Card/card.svg" alt="">
+                            <svg>
+                                <use xlink:href="img/sprite.svg#card"></use>
+                            </svg>
                         </div>
                         <div class="preim__name">
                             <p>Монтаж соответствии с дизайнерским проектом</p>
@@ -204,7 +220,9 @@
                     </div>
                     <div class="preim__page">
                         <div class="preim__img">
-                            <img src="img/Card/fura.svg" alt="">
+                            <svg>
+                                <use xlink:href="img/sprite.svg#car"></use>
+                            </svg>
                         </div>
                         <div class="preim__name">
                             <p>Выезд на замеры
@@ -670,6 +688,9 @@
           </div>
         </footer>
     <div class="cf"></div>
+      <noscript>
+        <link rel="stylesheet" href="css/second.css"  />
+    </noscript>
             <script>
             menuToggle();
         
@@ -688,6 +709,7 @@
     
             
     
+
 </body>
 
 </html>

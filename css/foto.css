@@ -1,32 +1,49 @@
-.section {
-  max-width: 1170px;
-  margin: 0 auto;
-  background-color: pink;
-  display: flex; }
+html {
+  width: 100%;
+  height: 100%; }
 
-.asd1 {
-  flex: 0 1 66.6%;
-  position: relative;
-  height: 500px; }
-  .asd1:before {
-    content: " ";
-    position: absolute;
-    background: url("../img/foto/potolki_07.jpg") center center no-repeat;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0; }
+.preim__title {
+  text-align: center;
+  padding: 30px 0;
+  text-transform: uppercase; }
 
-.asd2 {
-  flex: 0 1 33.3%;
+.preim__row {
+  margin-bottom: 30px; }
+
+.preim__block {
+  width: 90%;
+  margin: 30px auto;
   display: flex;
-  flex-direction: column;
-  justify-content: center; }
+  justify-content: space-around; }
 
-.dsa1 {
-  flex: 0 1 50%;
-  border: 5px solid green; }
+.preim__page {
+  width: 320px;
+  height: 96px;
+  border-radius: 8px;
+  background-color: #dcdde1;
+  display: flex;
+  align-items: center; }
 
-.dsa2 {
-  flex: 0 1 50%;
-  border: 5px solid green; }
+.preim__img {
+  margin: 0 1rem; }
+
+.preim__name {
+  text-align: center;
+  margin-right: .5rem;
+  text-transform: uppercase; }
+  .preim__name p {
+    font-weight: 500;
+    font-size: 1.1rem; }
+
+.qwer {
+  display: block;
+  width: 72px;
+  height: 100%; }
+
+.rewq {
+  width: 96px; }
+
+.pr {
+  display: flex;
+  height: 200px;
+  background-color: black; }

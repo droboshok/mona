@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/#source/about.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
 	"/#source/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -265,6 +273,14 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/temp.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/temp.html",
+		"oF": 0
+		},
 	"/#source/test.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -287,6 +303,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
 		"oF": 0
 		},
 	"/css/asd.css": {
@@ -497,7 +521,7 @@
 	"/favicons/safari-pinned-tab.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/favicons/i/safari-pinned-tab.svg",
 		"oF": 0,
 		"opt": 0,
@@ -511,6 +535,16 @@
 		"oA": 0,
 		"oAP": "/grig.txt",
 		"oF": 0
+		},
+	"/img/2-layers.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/i/2-layers.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/img/b_g.jpg": {
 		"ft": 16384,
@@ -600,21 +634,52 @@
 		"opt": 0,
 		"q": 80
 		},
+	"/img/Card/car2.png": {
+		"ft": 32768,
+		"iS": 703,
+		"oA": 0,
+		"oAP": "/img/Card/i/car2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Card/car2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Card/i/car2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/Card/card.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Card/i/card.svg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"plM": 52780316221407,
 		"prP": 0
 		},
 	"/img/Card/clock.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Card/i/clock.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Card/clock2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Card/i/clock2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -623,8 +688,18 @@
 	"/img/Card/fura.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Card/i/fura.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Card/i/card.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Card/i/i/card.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -633,8 +708,29 @@
 	"/img/Card/molot.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Card/i/molot.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Card/molot2.png": {
+		"ft": 32768,
+		"iS": 1237,
+		"oA": 0,
+		"oAP": "/img/Card/i/molot2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Card/molot2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Card/i/molot2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -643,7 +739,7 @@
 	"/img/Fill_1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/Fill_1.svg",
 		"oF": 0,
 		"opt": 0,
@@ -851,7 +947,7 @@
 	"/img/i/ceiling_1_ur.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/i/ceiling_1_ur.svg",
 		"oF": 0,
 		"opt": 0,
@@ -861,7 +957,7 @@
 	"/img/i/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/i/logo.svg",
 		"oF": 0,
 		"opt": 0,
@@ -882,7 +978,7 @@
 	"/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/logo.svg",
 		"oF": 0,
 		"opt": 1,
@@ -903,7 +999,7 @@
 	"/img/man-leaning-against-the-wall.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/man-leaning-against-the-wall.svg",
 		"oF": 0,
 		"opt": 0,
@@ -924,7 +1020,7 @@
 	"/img/man-silhouette-touching-ceiling.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/man-silhouette-touching-ceiling.svg",
 		"oF": 0,
 		"opt": 0,
@@ -934,7 +1030,7 @@
 	"/img/menu_btn.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/menu_btn.svg",
 		"oF": 0,
 		"opt": 0,
@@ -955,12 +1051,23 @@
 	"/img/painting.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/i/painting.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/Price/ceiling_1_ur-110.jpg": {
+		"ft": 16384,
+		"iS": 4972,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Price/i/ceiling_1_ur-110.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
 		},
 	"/img/Price/ceiling_1_ur.jpg": {
 		"ft": 16384,
@@ -968,6 +1075,27 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/Price/i/ceiling_1_ur.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/img/Price/ceiling_1_ur.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Price/i/ceiling_1_ur.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Price/p_115-110.jpg": {
+		"ft": 16384,
+		"iS": 4118,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Price/i/p_115-110.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -987,12 +1115,23 @@
 	"/img/Price/p_115.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Price/i/p_115.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/Price/partition-110.jpg": {
+		"ft": 16384,
+		"iS": 2967,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Price/i/partition-110.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
 		},
 	"/img/Price/partition.jpg": {
 		"ft": 16384,
@@ -1000,6 +1139,27 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/Price/i/partition.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/img/Price/partition.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Price/i/partition.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Price/wall_CD-110.jpg": {
+		"ft": 16384,
+		"iS": 4727,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Price/i/wall_CD-110.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1016,10 +1176,20 @@
 		"opt": 0,
 		"q": 80
 		},
+	"/img/Price/wall_CD.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Price/i/wall_CD.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/Price/wall_CD1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Price/i/wall_CD1.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1029,7 +1199,7 @@
 	"/img/Social/facebook.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/facebook.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1039,7 +1209,7 @@
 	"/img/Social/gmail.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/gmail.svg",
 		"oF": 0,
 		"opt": 1,
@@ -1049,7 +1219,7 @@
 	"/img/Social/google.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/google.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1059,7 +1229,7 @@
 	"/img/Social/i/gmail.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/i/gmail.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1069,7 +1239,7 @@
 	"/img/Social/i/telephone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/i/telephone.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1079,7 +1249,7 @@
 	"/img/Social/i/viber1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/i/viber1.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1089,7 +1259,7 @@
 	"/img/Social/instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/instagram.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1099,7 +1269,7 @@
 	"/img/Social/mailing.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/mailing.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1109,7 +1279,7 @@
 	"/img/Social/mobile-phone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/mobile-phone.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1119,7 +1289,7 @@
 	"/img/Social/telegram.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/telegram.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1129,7 +1299,7 @@
 	"/img/Social/telegram5.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/telegram5.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1139,7 +1309,7 @@
 	"/img/Social/telephone.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/telephone.svg",
 		"oF": 0,
 		"opt": 1,
@@ -1149,7 +1319,7 @@
 	"/img/Social/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/twitter.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1159,7 +1329,7 @@
 	"/img/Social/viber.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/viber.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1169,7 +1339,7 @@
 	"/img/Social/viber1.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/viber1.svg",
 		"oF": 0,
 		"opt": 1,
@@ -1179,7 +1349,7 @@
 	"/img/Social/viber5.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/viber5.svg",
 		"oF": 0,
 		"opt": 0,
@@ -1189,8 +1359,18 @@
 	"/img/Social/whatsapp.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Social/i/whatsapp.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/sprite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/i/sprite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1210,8 +1390,18 @@
 	"/img/Work/Comerc.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Work/i/Comerc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Work/comerc2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Work/i/comerc2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1220,8 +1410,18 @@
 	"/img/Work/Cup.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Work/i/Cup.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Work/cup2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Work/i/cup2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1230,8 +1430,18 @@
 	"/img/Work/Montag.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Work/i/Montag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Work/montag2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Work/i/montag2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1240,8 +1450,18 @@
 	"/img/Work/Smeta.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Work/i/Smeta.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Work/smeta2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Work/i/smeta2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1250,8 +1470,18 @@
 	"/img/Work/Tel.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Work/i/Tel.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Work/tel2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Work/i/tel2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1260,8 +1490,18 @@
 	"/img/Work/Zamer.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/img/Work/i/Zamer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/Work/zamer2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "/img/Work/i/zamer2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1309,6 +1549,14 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"/temp.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/temp.html",
+		"oF": 0
 		},
 	"/test.html": {
 		"cB": 0,
@@ -3399,7 +3647,7 @@
 		"shouldRunBless": 0
 		},
 	"languageDefaultsSVG": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.svg",
 		"autoOutputPathRelativePath": "/i",
 		"autoOutputPathReplace1": "",

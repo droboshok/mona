@@ -97,12 +97,12 @@
             }
   }
   &__img{
-    
-  }
-  &__img img {
-        display: block;
+            display: block;
     max-height: 110px;
     margin: 0 auto;
+  }
+  &__img img {
+
   }
   // .card__cena
   &__cena {
@@ -145,21 +145,21 @@
 
 
 .ceiling {
-  background-image: url(../img/Price/ceiling_1_ur.svg) ;
+  background-image: url(../img/Price/ceiling_1_ur-110.jpg) ;
 }
 .partition {
-  background-image: url(../img/Price/partition.svg) ;
+  background-image: url(../img/Price/partition-110.jpg) ;
 }
 .wall {
-  background-image: url(../img/Price/wall_CD.svg) ;
+  background-image: url(../img/Price/wall_CD-110.jpg) ;
 }
 .p_115 {
-  background-image: url(../img/Price/p_115.svg) ;
+  background-image: url(../img/Price/p_115-110.jpg) ;
 }
 
 .ceiling,.p_115,.partition,.wall{
   background-repeat: no-repeat;
   background-position:  center center;
   // background-size: cover;
-  height: 110px;
+  height: 100%;
 }
