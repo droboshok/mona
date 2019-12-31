@@ -100,23 +100,6 @@
   text-transform: uppercase;
   font-weight: 700; }
 
-.ceiling {
-  background-image: url(../img/Price/ceiling_1_ur-110.jpg); }
-
-.partition {
-  background-image: url(../img/Price/partition-110.jpg); }
-
-.wall {
-  background-image: url(../img/Price/wall_CD-110.jpg); }
-
-.p_115 {
-  background-image: url(../img/Price/p_115-110.jpg); }
-
-.ceiling, .p_115, .partition, .wall {
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 100%; }
-
 .preim__title {
   text-align: center;
   padding: 30px 0;
@@ -182,6 +165,9 @@
     align-items: center; }
   .work__img {
     margin: 0 2rem; }
+    .work__img svg {
+      width: 48px;
+      height: 48px; }
   .work__name {
     margin: 0 1rem;
     color: #f5f6fa;
