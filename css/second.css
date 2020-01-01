@@ -143,10 +143,12 @@
   align-items: center; }
 
 .preim__img {
+  display: block;
   margin: 0 1rem;
-  width: 72px; }
+  align-self: center; }
   .preim__img svg {
-    width: 100%; }
+    width: 72px;
+    height: 72px; }
 
 .preim__name {
   text-align: center;

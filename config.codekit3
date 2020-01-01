@@ -601,13 +601,13 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/img/Card/card.svg": {
+	"/img/Card/card2.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "/img/Card/i/card.svg",
+		"oAP": "/img/Card/i/card2.svg",
 		"oF": 0,
-		"opt": 1,
+		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
