@@ -1,6 +1,8 @@
         <script>
 
         menuToggle();
+
+ 
     
         function menuToggle() {
             document.querySelector(".header__burger").onclick = function() {
@@ -11,9 +13,14 @@
             };
 
         }
-        delayPics (document.getElementsByClassName("delay"))
-        delayPics (document.getElementsByClassName("card__pics"))
-        function delayPics (picsArray) {
+        
+
+
+
+        </script>
+<script>
+    delayPics (document.getElementsByClassName("card__pics"));
+            function delayPics (picsArray) {
         /* Это событие происходит каждый раз 
             при изменении onreadystatechange */
         document.onreadystatechange = function(e) {
@@ -26,11 +33,9 @@
                     picsArray[i].src = picsArray[i].dataset.src;
                 }
             }
-        };
+        }
     }
-
-        </script>
-
+</script>
 
 
         

@@ -10,7 +10,7 @@
       background: url(../img/b_g1_md3.jpg), linear-gradient(to top, rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64)); } }
   @media screen and (max-width: 479.98px) {
     .hero {
-      background: url(../img/b_g1_md4.jpg), linear-gradient(to top, rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64)); } }
+      background: url(../img/b_g1_md4_50.jpg), linear-gradient(to top, rgba(34, 47, 62, 0.64), rgba(34, 47, 62, 0.64)); } }
 
 .price {
   background-color: #dcdde1; }
@@ -214,9 +214,8 @@
       .photo__block-bg {
         margin-bottom: 1.5rem; } }
   .photo__bg-link {
-    display: block; }
-    .photo__bg-link img {
-      width: 90%; }
+    display: block;
+    width: 90%; }
   .photo__block-sm {
     flex: 0 0 33.33%;
     display: flex;
