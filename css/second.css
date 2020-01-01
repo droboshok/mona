@@ -143,9 +143,10 @@
   align-items: center; }
 
 .preim__img {
-  margin: 0 1rem; }
+  margin: 0 1rem;
+  width: 72px; }
   .preim__img svg {
-    width: 72px; }
+    width: 100%; }
 
 .preim__name {
   text-align: center;
@@ -214,8 +215,9 @@
       .photo__block-bg {
         margin-bottom: 1.5rem; } }
   .photo__bg-link {
-    display: block;
-    width: 90%; }
+    display: block; }
+    .photo__bg-link img {
+      width: 90%; }
   .photo__block-sm {
     flex: 0 0 33.33%;
     display: flex;
