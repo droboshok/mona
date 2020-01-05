@@ -1,0 +1,34 @@
+
+
+<ifModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml application/xml application/xhtml+xml text/css text/javascript application/javascript application/x-javascript
+</ifModule>
+
+# Hotlink Protection START #
+
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?gosteva.com.ua [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?montagnik.od.ua [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?test.montagnik.od.ua [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?google.com [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?mona.local [NC]
+RewriteRule \.(jpg|jpeg|png|gif)$ - [NC,F,L]
+
+# Hotlink Protection END #
+
+<IfModule mod_mime.c>
+AddType image/gif .gif .GIF 
+AddType image/ief .ief 
+AddType image/jpeg .jpeg .jpg .jpe .JPG 
+AddType image/png .png 
+AddType application/x-javascript .js
+AddType text/css .css
+AddType text/xml .xml
+AddType application/octet-stream .doc .mov .avi .pdf .xls 
+
+</IfModule>
+
+
+
+

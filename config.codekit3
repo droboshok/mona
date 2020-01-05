@@ -17,6 +17,168 @@
 		"oAP": "/about.html",
 		"oF": 0
 		},
+	"/#source/hatcess/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/hatcess/.htaccess",
+		"oF": 0
+		},
+	"/#source/images/Новая папка с объектами 2/potolki_05 — копия.jpg": {
+		"ft": 16384,
+		"iS": 457342,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами 2/i/potolki_05 — копия.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами 2/potolki_07 — копия.jpg": {
+		"ft": 16384,
+		"iS": 39139,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами 2/i/potolki_07 — копия.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами 2/potolki_08 — копия.jpg": {
+		"ft": 16384,
+		"iS": 40879,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами 2/i/potolki_08 — копия.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/1.jpg": {
+		"ft": 16384,
+		"iS": 59991,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/2.jpg": {
+		"ft": 16384,
+		"iS": 75630,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/3-8.jpg": {
+		"ft": 16384,
+		"iS": 58849,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/3-8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/3.jpg": {
+		"ft": 16384,
+		"iS": 72593,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/4.jpg": {
+		"ft": 16384,
+		"iS": 7050,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/P8310191.JPG": {
+		"ft": 16384,
+		"iS": 294434,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/P8310191.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/P8310192.JPG": {
+		"ft": 16384,
+		"iS": 327201,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/P8310192.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка с объектами/potolki_04.jpg": {
+		"ft": 16384,
+		"iS": 218710,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка с объектами/i/potolki_04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка/potolki_05.jpg": {
+		"ft": 16384,
+		"iS": 457342,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка/i/potolki_05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка/potolki_07.jpg": {
+		"ft": 16384,
+		"iS": 39139,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка/i/potolki_07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
+	"/#source/images/Новая папка/potolki_08.jpg": {
+		"ft": 16384,
+		"iS": 40879,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/#source/images/Новая папка/i/potolki_08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
+		},
 	"/#source/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -281,6 +443,54 @@
 		"oAP": "/temp.html",
 		"oF": 0
 		},
+	"/#source/template/Montagnik-copy.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/Montagnik-copy.ai",
+		"oF": 0
+		},
+	"/#source/template/Montagnik.ai": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/Montagnik.ai",
+		"oF": 0
+		},
+	"/#source/template/ticker.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/ticker.html",
+		"oF": 0
+		},
+	"/#source/template/untitled": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/untitled",
+		"oF": 0
+		},
+	"/#source/template/Untitled 4.sketch": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/Untitled 4.sketch",
+		"oF": 0
+		},
+	"/#source/template/Без названия 4.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/Без названия 4.txt",
+		"oF": 0
+		},
 	"/#source/test.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -528,6 +738,14 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/form.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/form.php",
+		"oF": 1
+		},
 	"/grig.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -659,171 +877,6 @@
 		"jF": 0,
 		"oA": 1,
 		"oAP": "/img/foto/i/potolki_08.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами 2/potolki_05 — копия.jpg": {
-		"ft": 16384,
-		"iS": 457342,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами 2/i/potolki_05 — копия.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами 2/potolki_07 — копия.jpg": {
-		"ft": 16384,
-		"iS": 39139,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами 2/i/potolki_07 — копия.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами 2/potolki_08 — копия.jpg": {
-		"ft": 16384,
-		"iS": 40879,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами 2/i/potolki_08 — копия.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/1.jpg": {
-		"ft": 16384,
-		"iS": 59991,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/2.jpg": {
-		"ft": 16384,
-		"iS": 75630,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/3-8.jpg": {
-		"ft": 16384,
-		"iS": 58849,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/3-8.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/3.jpg": {
-		"ft": 16384,
-		"iS": 72593,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/4.jpg": {
-		"ft": 16384,
-		"iS": 7050,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/P8310191.JPG": {
-		"ft": 16384,
-		"iS": 294434,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/P8310191.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/P8310192.JPG": {
-		"ft": 16384,
-		"iS": 327201,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/P8310192.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка с объектами/potolki_04.jpg": {
-		"ft": 16384,
-		"iS": 218710,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка с объектами/i/potolki_04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка/potolki_05.jpg": {
-		"ft": 16384,
-		"iS": 457342,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка/i/potolki_05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка/potolki_07.jpg": {
-		"ft": 16384,
-		"iS": 39139,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка/i/potolki_07.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/foto/Новая папка/potolki_08.jpg": {
-		"ft": 16384,
-		"iS": 40879,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/foto/Новая папка/i/potolki_08.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 80
-		},
-	"/img/images/b_g1.jpg": {
-		"ft": 16384,
-		"iS": 158211,
-		"jF": 0,
-		"oA": 1,
-		"oAP": "/img/images/i/b_g1.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -992,36 +1045,6 @@
 		"miP": 0,
 		"oA": 1,
 		"oAP": "/img/Social/i/google.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/Social/i/gmail.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "/img/Social/i/i/gmail.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/Social/i/telephone.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "/img/Social/i/i/telephone.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/Social/i/viber1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 1,
-		"oAP": "/img/Social/i/i/viber1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -1215,22 +1238,6 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
-	"/Montagnik-copy.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Montagnik-copy.ai",
-		"oF": 0
-		},
-	"/Montagnik.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Montagnik.ai",
-		"oF": 0
-		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1250,6 +1257,22 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/sftp-config.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/sftp-config-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/subscribe.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/subscribe.php",
+		"oF": 0
+		},
 	"/temp.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1264,38 +1287,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/test.html",
-		"oF": 0
-		},
-	"/ticker.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/ticker.html",
-		"oF": 0
-		},
-	"/untitled": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/untitled",
-		"oF": 0
-		},
-	"/Untitled 4.sketch": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Untitled 4.sketch",
-		"oF": 0
-		},
-	"/Без названия 4.txt": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/Без названия 4.txt",
 		"oF": 0
 		}
 	},
