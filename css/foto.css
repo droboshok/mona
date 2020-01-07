@@ -13,6 +13,7 @@ html {
 .preim__block {
   width: 90%;
   margin: 30px auto;
+  display: -webkit-box;
   display: flex;
   justify-content: space-around; }
 
@@ -21,8 +22,10 @@ html {
   height: 96px;
   border-radius: 8px;
   background-color: #dcdde1;
+  display: -webkit-box;
   display: flex;
-  align-items: center; }
+  -webkit-box-align: center;
+          align-items: center; }
 
 .preim__img {
   margin: 0 1rem; }
@@ -44,6 +47,10 @@ html {
   width: 96px; }
 
 .pr {
+  display: -webkit-box;
   display: flex;
   height: 200px;
   background-color: black; }
+
+.sd {
+  margin: 0px 0px 0px 0px; }
