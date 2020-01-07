@@ -2,3 +2,4 @@ _Source
 .DS_Store
 sftp-config.json
 /.vscode
+config.codekit3
