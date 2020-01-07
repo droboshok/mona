@@ -479,9 +479,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/#source/template/Untitled 4.sketch",
-		"oF": 0
+		"oF": 1
 		},
 	"/#source/template/Без названия 4.txt": {
 		"cB": 0,
@@ -753,6 +753,17 @@
 		"oA": 0,
 		"oAP": "/grig.txt",
 		"oF": 0
+		},
+	"/img/author5.jpg": {
+		"ft": 16384,
+		"iS": 10666,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/i/author5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 80
 		},
 	"/img/b_g1.jpg": {
 		"ft": 16384,
