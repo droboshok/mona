@@ -49,6 +49,22 @@
 		"oAP": "/foto1.html",
 		"oF": 0
 		},
+	"/#source/future.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/future.html",
+		"oF": 0
+		},
+	"/#source/gipsokarton.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/gipsokarton.html",
+		"oF": 0
+		},
 	"/#source/hatcess/.htaccess": {
 		"cB": 0,
 		"ft": 8192,
@@ -323,6 +339,22 @@
 		"oAP": "/price.html",
 		"oF": 0
 		},
+	"/#source/properties.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/properties.html",
+		"oF": 0
+		},
+	"/#source/structura.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/structura.html",
+		"oF": 0
+		},
 	"/#source/styles/_footer.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -544,6 +576,22 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/svoystva.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/svoystva.html",
+		"oF": 0
+		},
+	"/#source/technology.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/technology.html",
+		"oF": 0
+		},
 	"/#source/temp.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -614,6 +662,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/ticker.html",
+		"oF": 0
+		},
+	"/#source/vid.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/vid.html",
 		"oF": 0
 		},
 	"/.gitignore": {
@@ -885,6 +941,22 @@
 		"oAP": "/form.php",
 		"oF": 1
 		},
+	"/foto1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/foto1.html",
+		"oF": 0
+		},
+	"/gipsokarton.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/gipsokarton.html",
+		"oF": 0
+		},
 	"/grig.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -901,6 +973,105 @@
 		"oAP": "/history.html",
 		"oF": 0
 		},
+	"/img/article/1-gips.jpg": {
+		"ft": 16384,
+		"iS": 21294,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/1-gips.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/2-profil.jpg": {
+		"ft": 16384,
+		"iS": 8103,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/2-profil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/65-tn.jpg": {
+		"ft": 16384,
+		"iS": 22543,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/65-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/65.jpg": {
+		"ft": 16384,
+		"iS": 37365,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/65.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/bg_hr.png": {
+		"ft": 32768,
+		"iS": 78,
+		"oA": 0,
+		"oAP": "/img/article/bg_hr.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/article/blacktocat.png": {
+		"ft": 32768,
+		"iS": 463,
+		"oA": 0,
+		"oAP": "/img/article/blacktocat.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/article/desing-potolok.jpg": {
+		"ft": 16384,
+		"iS": 71501,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/desing-potolok.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/desing-tn.jpg": {
+		"ft": 16384,
+		"iS": 21713,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/desing-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/future-tn.jpg": {
+		"ft": 16384,
+		"iS": 27283,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/future-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/article/gips-gips.jpg": {
 		"ft": 16384,
 		"iS": 54446,
@@ -910,6 +1081,215 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/img/article/gips-tn.jpg": {
+		"ft": 16384,
+		"iS": 18562,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/gips-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/icon_download.png": {
+		"ft": 32768,
+		"iS": 216,
+		"oA": 0,
+		"oAP": "/img/article/icon_download.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/article/Logo_eskaro.png.pagespeed.ce.uG0XOoKFje.png": {
+		"ft": 32768,
+		"iS": 27189,
+		"oA": 0,
+		"oAP": "/img/article/Logo_eskaro.png.pagespeed.ce.uG0XOoKFje.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/article/logo_knauf.png.pagespeed.ce.k7FOyQIehE.png": {
+		"ft": 32768,
+		"iS": 27522,
+		"oA": 0,
+		"oAP": "/img/article/logo_knauf.png.pagespeed.ce.k7FOyQIehE.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/article/pain1-tn.jpg": {
+		"ft": 16384,
+		"iS": 22645,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/pain1-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/pain1.jpg": {
+		"ft": 16384,
+		"iS": 39373,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/pain1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/potolki.jpg": {
+		"ft": 16384,
+		"iS": 10958,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/potolki.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/proizvod-tn.jpg": {
+		"ft": 16384,
+		"iS": 41693,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/proizvod-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/proizvod.jpg": {
+		"ft": 16384,
+		"iS": 57354,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/proizvod.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/sprite_download.png": {
+		"ft": 32768,
+		"iS": 14832,
+		"oA": 0,
+		"oAP": "/img/article/sprite_download.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/article/stena.jpg": {
+		"ft": 16384,
+		"iS": 14159,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/stena.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/stena1-tn.jpg": {
+		"ft": 16384,
+		"iS": 15747,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/stena1-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/stena1.jpg": {
+		"ft": 16384,
+		"iS": 21215,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/stena1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/structura.jpeg": {
+		"ft": 16384,
+		"iS": 47724,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/structura.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/structura.jpg": {
+		"ft": 16384,
+		"iS": 45160,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/structura.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/article/technology-tn.jpg": {
+		"ft": 16384,
+		"iS": 23290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/technology-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/technology.jpg": {
+		"ft": 16384,
+		"iS": 48113,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/technology.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/vid-tn.jpg": {
+		"ft": 16384,
+		"iS": 9793,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/vid-tn.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/article/vid.jpg": {
+		"ft": 16384,
+		"iS": 32749,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/vid.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/author.jpg": {
@@ -1472,6 +1852,14 @@
 		"oAP": "/price.html",
 		"oF": 0
 		},
+	"/properties.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/properties.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1499,12 +1887,36 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"/structura.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/structura.html",
+		"oF": 0
+		},
 	"/subscribe.php": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/subscribe.php",
+		"oF": 0
+		},
+	"/svoystva.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/svoystva.html",
+		"oF": 0
+		},
+	"/technology.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/technology.html",
 		"oF": 0
 		},
 	"/temp.html": {
@@ -1521,6 +1933,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/test.html",
+		"oF": 0
+		},
+	"/vid.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/vid.html",
 		"oF": 0
 		},
 	"/Без названия 4.txt": {

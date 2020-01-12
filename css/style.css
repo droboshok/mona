@@ -491,14 +491,20 @@ h4 {
 
 .paper {
   flex-basis: 66.66%;
-  margin: 0 0 1rem 0; }
-  @media screen and (max-width: 992.98px) {
-    .paper__title h1 {
-      font-size: 1.75rem; } }
+  margin: 0 2rem 1rem 1rem; }
+  @media screen and (max-width: 767.98px) {
+    .paper {
+      margin: 0 0 1rem 0; } }
+  .paper__title {
+    margin-left: 5%; }
+    @media screen and (max-width: 992.98px) {
+      .paper__title h1 {
+        font-size: 1.75rem; } }
   .paper__text p {
     text-indent: .5rem; }
   .paper__text img {
-    float: right; }
+    float: right;
+    margin: .5rem; }
     @media screen and (max-width: 479.98px) {
       .paper__text img {
         width: 90vw;
@@ -516,6 +522,68 @@ h4 {
     .about__text img {
       width: 100px;
       margin: 0 auto; } }
+
+.article__card {
+  display: -webkit-box;
+  display: flex;
+  width: 90%;
+  margin: 2rem auto;
+  border-radius: 4px;
+  box-shadow: 0 0 12px -2px rgba(0, 0, 0, 0.35); }
+
+.article__img {
+  width: 150px;
+  height: 120px;
+  background: pink; }
+  .article__img img {
+    height: 100%;
+    margin: auto; }
+  @media screen and (max-width: 767.98px) {
+    .article__img {
+      display: none; } }
+
+.article__block {
+  padding: 10px 10px 0px 3rem; }
+
+.article__title {
+  padding: 10px 10px 0px 3rem;
+  display: inline-block; }
+  @media screen and (max-width: 767.98px) {
+    .article__title {
+      padding: 10px 10px 0px 1rem; } }
+  .article__title a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 1.5rem; }
+
+.article__link {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2f3640;
+  line-height: 1.5rem; }
+  .article__link small {
+    font-size: 1rem;
+    font-weight: normal; }
+  .article__link span {
+    font-size: 0.8rem;
+    color: #FFB32C; }
+  @media screen and (max-width: 767.98px) {
+    .article__link {
+      line-height: 1rem; } }
+
+.article_text {
+  display: block; }
+  @media screen and (max-width: 992.98px) {
+    .article_text p {
+      margin: 0; } }
+  @media screen and (max-width: 767.98px) {
+    .article_text p {
+      font-size: .9rem; } }
+  .article_text a {
+    display: block;
+    color: #FFB32C;
+    width: 100%; }
 
 .sidebar {
   margin-top: 2.67rem;
