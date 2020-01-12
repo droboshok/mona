@@ -8,7 +8,7 @@
     }
   // .footer__title
   &__title {
-    padding: 20px 0;
+    padding: 1rem 0 .5rem;
     text-align: center;
     svg{
       height: 24px;
@@ -45,8 +45,8 @@
   // .footer__li
   &__li {
     list-style-type: disc;
-    height: 24px;
-    margin: 4px 0;
+    height: 1.25rem;
+    // margin: 4px 0;
     @media screen and (max-width: $md4+px) { 
       margin: 8px 0;
       font-size: 14px;
@@ -88,10 +88,13 @@
     text-align: left;
     margin: 0 auto;
     li{
-      height: 44px;
+      height: 2rem;
     color: $h1;
     font-size: 1.1rem;
-    padding: .5rem 0;
+    // padding: .5rem 0;
+    @media screen and (max-width: $md4+px) { 
+      height: 44px;
+    }
     }
   }
   // .footer__c-item
@@ -103,7 +106,7 @@
   // .footer__social
   &__social {
     text-align: center;
-    margin: 1rem 0;
+    // margin: 1rem 0;
     svg{width: 32px;
         margin: 10px 1rem 10px 1rem;}
   }

@@ -1,0 +1,53 @@
+.wrapper {
+  display: flex;
+  // margin: 0px -15px 0px -15px;
+  justify-content: space-between;
+  @media screen and (max-width: $md2+px) {
+    flex-direction: column;
+  }
+}
+.paper {
+  flex-basis: 66.66%;
+  margin: 0 0 1rem 0;
+  &__title {
+    h1 {
+      @media screen and (max-width: $md2+px) {
+        font-size: 1.75rem;
+      }
+    }
+  }
+
+  // .piper__text
+  &__text {
+    p{
+      text-indent: .5rem;
+    }
+    img {
+      float: right;
+      @media screen and (max-width: $md4+px) { 
+        width: 90vw;
+        margin: 0 auto;
+      }
+    }
+  }
+  // .piper__footer
+  &__footer {
+  }
+}
+.about__title{
+  color: $t_red;
+  h1 {
+    @media screen and (max-width: $md2+px) {
+      font-size: 1.75rem;
+    }
+  }
+}
+.about__text{
+  img {
+    border-radius: 50%;
+      @media screen and (max-width: $md4+px) { 
+        width: 100px;
+        margin: 0 auto;
+      }
+    }
+}

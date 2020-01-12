@@ -9,12 +9,44 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/#source/_article-temp.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_article-temp.html",
+		"oF": 0
+		},
 	"/#source/about.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/#source/about.html",
+		"oAP": "/about.html",
+		"oF": 0
+		},
+	"/#source/contacts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/contacts.html",
+		"oF": 0
+		},
+	"/#source/faq.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/faq.html",
+		"oF": 0
+		},
+	"/#source/foto1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/foto1.html",
 		"oF": 0
 		},
 	"/#source/hatcess/.htaccess": {
@@ -23,6 +55,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/#source/hatcess/.htaccess",
+		"oF": 0
+		},
+	"/#source/history.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/history.html",
 		"oF": 0
 		},
 	"/#source/images/Новая папка с объектами 2/potolki_05 — копия.jpg": {
@@ -187,20 +227,52 @@
 		"oAP": "/index.html",
 		"oF": 2
 		},
-	"/#source/kit/footer.html": {
+	"/#source/kit/_head.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/#source/kit/footer.html",
+		"oAP": "/_head.html",
 		"oF": 0
 		},
-	"/#source/kit/header.html": {
+	"/#source/kit/_script2.kit": {
 		"cB": 0,
-		"ft": 8192,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/#source/kit/header.html",
+		"oAP": "/_script2.html",
+		"oF": 0
+		},
+	"/#source/kit/_template.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_template.html",
+		"oF": 0
+		},
+	"/#source/kit/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/footer.html",
+		"oF": 0
+		},
+	"/#source/kit/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/header.html",
+		"oF": 0
+		},
+	"/#source/kit/main.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/main.html",
 		"oF": 0
 		},
 	"/#source/kit/modal.html": {
@@ -219,12 +291,36 @@
 		"oAP": "/#source/kit/script.html",
 		"oF": 0
 		},
+	"/#source/kit/sidebar.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/sidebar.html",
+		"oF": 0
+		},
 	"/#source/kit/work.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/#source/kit/work.html",
+		"oF": 0
+		},
+	"/#source/my.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/my.html",
+		"oF": 0
+		},
+	"/#source/price.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/price.html",
 		"oF": 0
 		},
 	"/#source/styles/_footer.scss": {
@@ -236,19 +332,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/css/_footer.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/#source/styles/_global.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/css/_global.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -383,6 +466,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/#source/styles/_sidebar.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_sidebar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/#source/styles/_variables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/#source/styles/_work.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -440,7 +549,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/#source/temp.html",
+		"oAP": "/temp.html",
 		"oF": 0
 		},
 	"/#source/template/Montagnik-copy.ai": {
@@ -479,9 +588,9 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "/#source/template/Untitled 4.sketch",
-		"oF": 1
+		"oF": 0
 		},
 	"/#source/template/Без названия 4.txt": {
 		"cB": 0,
@@ -496,7 +605,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/#source/test.html",
+		"oAP": "/test.html",
 		"oF": 0
 		},
 	"/#source/ticker.kit": {
@@ -504,7 +613,7 @@
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/#source/ticker.html",
+		"oAP": "/ticker.html",
 		"oF": 0
 		},
 	"/.gitignore": {
@@ -513,6 +622,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/.vscode/!!!.code-snippets": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.vscode/!!!.code-snippets",
 		"oF": 0
 		},
 	"/.vscode/sftp.json": {
@@ -559,14 +676,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/css/foto.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/foto.css.map",
-		"oF": 0
-		},
 	"/css/jquery-1.9.1.min.js": {
 		"bF": 0,
 		"ft": 64,
@@ -588,14 +697,6 @@
 		"oF": 0,
 		"oS": 0
 		},
-	"/css/second.css.map": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/css/second.css.map",
-		"oF": 0
-		},
 	"/css/st.css": {
 		"aP": 0,
 		"bl": 0,
@@ -615,6 +716,22 @@
 		"oAP": "/css/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"/faq.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/faq.html",
+		"oF": 0
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
 		},
 	"/favicons/android-chrome-192x192.png": {
 		"ft": 32768,
@@ -776,6 +893,36 @@
 		"oAP": "/grig.txt",
 		"oF": 0
 		},
+	"/history.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/history.html",
+		"oF": 0
+		},
+	"/img/article/gips-gips.jpg": {
+		"ft": 16384,
+		"iS": 54446,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/article/gips-gips.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/author.jpg": {
+		"ft": 16384,
+		"iS": 10666,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/author.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/author5.jpg": {
 		"ft": 16384,
 		"iS": 10666,
@@ -786,6 +933,28 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 80
+		},
+	"/img/author5.png": {
+		"ft": 32768,
+		"iS": 36691,
+		"oA": 0,
+		"oAP": "/img/author5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/author5x@2.jpg": {
+		"ft": 16384,
+		"iS": 25427,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/author5x@2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/b_g1.jpg": {
 		"ft": 16384,
@@ -1271,6 +1440,38 @@
 		"oAP": "/index.html",
 		"oF": 0
 		},
+	"/main.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/main.html",
+		"oF": 0
+		},
+	"/mona.code-workspace": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mona.code-workspace",
+		"oF": 0
+		},
+	"/my.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/my.html",
+		"oF": 0
+		},
+	"/price.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/price.html",
+		"oF": 0
+		},
 	"/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1320,6 +1521,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/test.html",
+		"oF": 0
+		},
+	"/Без названия 4.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/Без названия 4.txt",
 		"oF": 0
 		}
 	},
@@ -3247,10 +3456,10 @@
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "/",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 1,
 		"shouldRunCacheBuster": 0,
 		"shouldRunHTMLMinifier": 0
 		},
