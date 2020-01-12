@@ -788,7 +788,7 @@ h4 {
     padding: 0px 0 10px; }
   .footer__li {
     list-style-type: disc;
-    height: 1.25rem; }
+    height: 1.5rem; }
     @media screen and (max-width: 479.98px) {
       .footer__li {
         margin: 8px 0;
