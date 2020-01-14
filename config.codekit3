@@ -323,12 +323,28 @@
 		"oAP": "/#source/kit/work.html",
 		"oF": 0
 		},
-	"/#source/my.kit": {
+	"/#source/montag.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/my.html",
+		"oAP": "/montag.html",
+		"oF": 0
+		},
+	"/#source/montag1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/montag1.html",
+		"oF": 0
+		},
+	"/#source/potolki.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/potolki.html",
 		"oF": 0
 		},
 	"/#source/price.kit": {
@@ -1165,7 +1181,7 @@
 		"oAP": "/img/article/potolki.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/article/proizvod-tn.jpg": {
@@ -1844,12 +1860,20 @@
 		"oAP": "/mona.code-workspace",
 		"oF": 0
 		},
-	"/my.html": {
+	"/montag.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/my.html",
+		"oAP": "/montag.html",
+		"oF": 0
+		},
+	"/montag1.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/montag1.html",
 		"oF": 0
 		},
 	"/price.html": {
