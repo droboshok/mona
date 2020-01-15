@@ -33,6 +33,14 @@
 		"oAP": "/contacts.html",
 		"oF": 0
 		},
+	"/#source/desing.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/desing.html",
+		"oF": 0
+		},
 	"/#source/faq.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -339,6 +347,14 @@
 		"oAP": "/montag1.html",
 		"oF": 0
 		},
+	"/#source/paint.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/paint.html",
+		"oF": 0
+		},
 	"/#source/potolki.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -355,12 +371,28 @@
 		"oAP": "/price.html",
 		"oF": 0
 		},
+	"/#source/profili.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/profili.html",
+		"oF": 0
+		},
 	"/#source/properties.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/properties.html",
+		"oF": 0
+		},
+	"/#source/stena.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/stena.html",
 		"oF": 0
 		},
 	"/#source/structura.kit": {
@@ -688,6 +720,14 @@
 		"oAP": "/vid.html",
 		"oF": 0
 		},
+	"/#source/work.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/work.html",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -788,6 +828,14 @@
 		"oAP": "/css/style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"/desing.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/desing.html",
+		"oF": 0
 		},
 	"/faq.html": {
 		"cB": 0,
@@ -1016,7 +1064,7 @@
 		"oAP": "/img/article/2-profil.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/article/65-tn.jpg": {
@@ -1071,18 +1119,7 @@
 		"oAP": "/img/article/desing-potolok.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/desing-tn.jpg": {
-		"ft": 16384,
-		"iS": 21713,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/desing-tn.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/article/future-tn.jpg": {
@@ -1151,17 +1188,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/img/article/pain1-tn.jpg": {
-		"ft": 16384,
-		"iS": 22645,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/pain1-tn.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/img/article/pain1.jpg": {
 		"ft": 16384,
 		"iS": 39373,
@@ -1170,7 +1196,7 @@
 		"oAP": "/img/article/pain1.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/article/potolki.jpg": {
@@ -1182,17 +1208,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"/img/article/proizvod-tn.jpg": {
-		"ft": 16384,
-		"iS": 41693,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/proizvod-tn.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/img/article/proizvod.jpg": {
@@ -1223,17 +1238,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/article/stena.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"/img/article/stena1-tn.jpg": {
-		"ft": 16384,
-		"iS": 15747,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/stena1-tn.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -1270,17 +1274,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"/img/article/technology-tn.jpg": {
-		"ft": 16384,
-		"iS": 23290,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/technology-tn.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"/img/article/technology.jpg": {
@@ -1876,12 +1869,36 @@
 		"oAP": "/montag1.html",
 		"oF": 0
 		},
+	"/paint.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/paint.html",
+		"oF": 0
+		},
+	"/potolki.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/potolki.html",
+		"oF": 0
+		},
 	"/price.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/price.html",
+		"oF": 0
+		},
+	"/profili.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/profili.html",
 		"oF": 0
 		},
 	"/properties.html": {
@@ -1918,6 +1935,14 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/stena.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/stena.html",
+		"oF": 0
 		},
 	"/structura.html": {
 		"cB": 0,
