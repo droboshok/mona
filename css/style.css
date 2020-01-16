@@ -604,6 +604,40 @@ h4 {
     color: #FFB32C;
     width: 100%; }
 
+.horizontal [name="vkl"] {
+  display: none; }
+
+.horizontal > :not(input):not(label) {
+  overflow: hidden;
+  height: 0;
+  margin: 0;
+  padding: 0 .5em;
+  border-top-style: none;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.horizontal > label {
+  overflow: hidden;
+  display: block;
+  padding: 1rem;
+  background: #dcdde1;
+  color: #2f3640;
+  cursor: pointer; }
+
+.horizontal > :checked + label + * {
+  overflow: auto;
+  height: 180px; }
+  @media screen and (max-width: 767.98px) {
+    .horizontal > :checked + label + * {
+      height: 250px; } }
+
+.horizontal > :checked + label {
+  background: #dcdde1;
+  cursor: default; }
+
+.horizontal__intro p span {
+  color: #FFB32C; }
+
 .sidebar {
   margin-top: 2.67rem;
   flex-basis: 33.33%;

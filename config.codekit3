@@ -648,6 +648,75 @@
 		"oAP": "/temp.html",
 		"oF": 0
 		},
+	"/#source/template/jquery-ui-accordion201017.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/jquery-ui-accordion201017.zip",
+		"oF": 0
+		},
+	"/#source/template/jquery-ui-accordion201017/babel/index.babel": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/jquery-ui-accordion201017/babel/index.babel",
+		"oF": 0
+		},
+	"/#source/template/jquery-ui-accordion201017/css/style.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/#source/template/jquery-ui-accordion201017/css/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"/#source/template/jquery-ui-accordion201017/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/jquery-ui-accordion201017/index.html",
+		"oF": 0
+		},
+	"/#source/template/jquery-ui-accordion201017/js/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/#source/template/jquery-ui-accordion201017/js/index-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/#source/template/jquery-ui-accordion201017/license.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/jquery-ui-accordion201017/license.txt",
+		"oF": 0
+		},
+	"/#source/template/jquery-ui-accordion201017/postcss/style.postcss": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/jquery-ui-accordion201017/postcss/style.postcss",
+		"oF": 0
+		},
+	"/#source/template/jquery-ui-accordion201017/README.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/#source/template/jquery-ui-accordion201017/README.txt",
+		"oF": 0
+		},
 	"/#source/template/Montagnik-copy.ai": {
 		"cB": 0,
 		"ft": 8192,
